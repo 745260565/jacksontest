@@ -1,0 +1,22 @@
+PODS:
+  - AMapLocation (1.2.2)
+  - AMapNavi (1.5.0)
+  - AMapSearch (3.3.0)
+  - Masonry (1.0.0)
+  - UMengSocial (5.0)
+
+DEPENDENCIES:
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - Masonry
+  - UMengSocial (~> 5.0)
+
+SPEC CHECKSUMS:
+  AMapLocation: 5412fbf0385716d4d481e39a95929057cddc093f
+  AMapNavi: 605e2dc3bad11fb2649ba4df61b82ab0da389d3f
+  AMapSearch: cff4faf59c007f7d1f2bae2d7170c3912783981a
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
+
+COCOAPODS: 0.39.0

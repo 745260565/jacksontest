@@ -19,6 +19,7 @@
 
 #import "Constant.h"
 #import "Masonry.h"
+#import "UIView+SDAutoLayout.h"
 
 #ifdef DEBUG
 #define NSLog(...) NSLog(__VA_ARGS__)

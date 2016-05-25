@@ -9,8 +9,8 @@
 #ifndef Constant_h
 #define Constant_h
 
-#define AMAPAppKey @"26e31a1137851b8e313f69c300b686f3"
-
+#define AMAPAppKey @"584db3f09a878852c45138567826c943"
+#define UMShareKey @"57306434e0f55a8474001aff"
 
 //屏幕宽高
 #define EDTabbrWidth LengthInIP6(71)

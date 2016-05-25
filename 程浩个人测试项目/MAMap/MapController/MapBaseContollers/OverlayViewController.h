@@ -6,8 +6,8 @@
 //  Copyright © 2016年 id. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseMapViewController.h"
 
-@interface OverlayViewController : UIViewController
+@interface OverlayViewController : BaseMapViewController
 
 @end

@@ -8,6 +8,10 @@
 
 #import "ShareVC.h"
 
+@interface ShareVC()
+
+@end
+
 @implementation ShareVC
 
 @end

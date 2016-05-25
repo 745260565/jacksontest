@@ -9,5 +9,6 @@
 #import "BaseMapViewController.h"
 
 @interface ShareSearchBaseViewController : BaseMapViewController
-
+/// 子类重写实现自己的逻辑。
+- (void)shareAction;
 @end

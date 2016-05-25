@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AMapNaviKit/MAMapKit.h>
+#import "UMSocial.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [MAMapServices sharedServices].apiKey = AMAPAppKey;
+    [UMSocialData setAppKey:UMShareKey];
+    
     // Override point for customization after application launch.
     return YES;
 }
