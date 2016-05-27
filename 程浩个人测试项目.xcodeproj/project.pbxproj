@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C8457072F4560D211606BF85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7995F6DCB058A4C53738A4 /* libPods.a */; };
+		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
 		E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B00F11CF2A83C0047FDF1 /* ShareVC.m */; };
 		E27B00F41CF2A8F30047FDF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F31CF2A8F30047FDF1 /* Security.framework */; };
 		E27B00F61CF2A9080047FDF1 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F51CF2A9080047FDF1 /* libiconv.2.4.0.tbd */; };
@@ -73,6 +74,8 @@
 		8239A424D12EB9AEB54EDD4D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B6A8A92BFFB3845BE22A255F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BB7995F6DCB058A4C53738A4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20506B41CF6F7AE008257B1 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		E20506B51CF6F7AE008257B1 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 		E27B00F01CF2A83C0047FDF1 /* ShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareVC.h; sourceTree = "<group>"; };
 		E27B00F11CF2A83C0047FDF1 /* ShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareVC.m; sourceTree = "<group>"; };
 		E27B00F31CF2A8F30047FDF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -213,6 +216,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E20506B31CF6F767008257B1 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				E20506B41CF6F7AE008257B1 /* PopViewController.h */,
+				E20506B51CF6F7AE008257B1 /* PopViewController.m */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
 		E27B00EF1CF2A7D90047FDF1 /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +270,7 @@
 				E2D2FC481CE0661D00B29872 /* Masonry */,
 				E2D2FC491CE0663800B29872 /* SDAutoLayout */,
 				E27B00EF1CF2A7D90047FDF1 /* Share */,
+				E20506B31CF6F767008257B1 /* POP */,
 				E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */,
 				E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */,
 				E2D2FC221CE05E5F00B29872 /* Info.plist */,
@@ -675,6 +688,7 @@
 				E2D2FC791CE0692800B29872 /* DemoVC1.m in Sources */,
 				E2D2FC911CE06A9800B29872 /* AddGestureViewController.m in Sources */,
 				E2D2FC9F1CE079BB00B29872 /* LocationShareViewController.m in Sources */,
+				E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */,
 				E2D2FC461CE0612500B29872 /* MainTableViewController.m in Sources */,
 				E2D2FC961CE0719600B29872 /* OverlayViewController.m in Sources */,
 				E2D2FC621CE068E200B29872 /* SDRefreshFooterView.m in Sources */,
