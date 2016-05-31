@@ -21,6 +21,16 @@
     [MAMapServices sharedServices].apiKey = AMAPAppKey;
     [UMSocialData setAppKey:UMShareKey];
     
+    // 讯飞初始化
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",IFLYAppKey];
+    [IFlySpeechUtility createUtility:initString];
+    //设置sdk的log等级，log保存在下面设置的工作路径中
+    [IFlySetting setLogFile:LVL_ALL];
+    [IFlySetting showLogcat:YES];
+    //设置sdk的工作路径
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachePath = [paths objectAtIndex:0];
+    [IFlySetting setLogFilePath:cachePath];
     // Override point for customization after application launch.
     return YES;
 }

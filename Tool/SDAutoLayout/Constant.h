@@ -11,12 +11,26 @@
 
 #define AMAPAppKey @"584db3f09a878852c45138567826c943"
 #define UMShareKey @"57306434e0f55a8474001aff"
+#define IFLYAppKey @"574be2c3"
 
 //屏幕宽高
 #define EDTabbrWidth LengthInIP6(71)
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width<[UIScreen mainScreen].bounds.size.height ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width)
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.width>[UIScreen mainScreen].bounds.size.height ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width)
 
+#define LengthInIP6(lengthInIP6) ((CGFloat)lengthInIP6)/375*ScreenHeight
+#define LengthInIP6P(lengthInIP6P) (((CGFloat)lengthInIP6P)/414.0*ScreenHeight)
+
+#define LengthByWidthIP6(lengthInIP6) ((CGFloat)lengthInIP6)/667*ScreenWidth
+
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define Double2Num(x) [NSNumber numberWithDouble:x]
 
 
 //定义颜色
@@ -42,5 +56,7 @@ alpha:a]
 #define IS_IOS_8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES : NO)
 #define IS_IOS_7_LOWER ([[[UIDevice currentDevice] systemVersion] floatValue] < 7.0 ? YES : NO)
 #define IS_IOS_8_LOWER ([[[UIDevice currentDevice] systemVersion] floatValue] < 8.0 ? YES : NO)
+
+
 
 #endif /* Constant_h */

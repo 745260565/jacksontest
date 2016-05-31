@@ -51,6 +51,15 @@
 		E2D2FC9C1CE0783700B29872 /* ShareSearchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC9B1CE0783700B29872 /* ShareSearchBaseViewController.m */; };
 		E2D2FC9F1CE079BB00B29872 /* LocationShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC9E1CE079BB00B29872 /* LocationShareViewController.m */; };
 		E2D2FCA21CE07C6D00B29872 /* UserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FCA11CE07C6D00B29872 /* UserLocationViewController.m */; };
+		E2DB0ADB1CFC20430047A4B0 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0ADA1CFC20430047A4B0 /* iflyMSC.framework */; };
+		E2DB0ADD1CFC20A40047A4B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0ADC1CFC20A40047A4B0 /* AVFoundation.framework */; };
+		E2DB0ADF1CFC20BD0047A4B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0ADE1CFC20BD0047A4B0 /* Foundation.framework */; };
+		E2DB0AE11CFC20D30047A4B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0AE01CFC20D30047A4B0 /* AudioToolbox.framework */; };
+		E2DB0AE31CFC20DB0047A4B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0AE21CFC20DB0047A4B0 /* UIKit.framework */; };
+		E2DB0AE51CFC20E70047A4B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0AE41CFC20E70047A4B0 /* CoreLocation.framework */; };
+		E2DB0AE71CFC20F20047A4B0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0AE61CFC20F20047A4B0 /* AddressBook.framework */; };
+		E2DB0AE91CFC20FE0047A4B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0AE81CFC20FE0047A4B0 /* QuartzCore.framework */; };
+		E2DB0AED1CFC241F0047A4B0 /* IflyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB0AEC1CFC241F0047A4B0 /* IflyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +164,16 @@
 		E2D2FCA01CE07C6D00B29872 /* UserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationViewController.h; sourceTree = "<group>"; };
 		E2D2FCA11CE07C6D00B29872 /* UserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationViewController.m; sourceTree = "<group>"; };
 		E2D2FCA31CE0842D00B29872 /* 程浩个人测试项目.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "程浩个人测试项目.entitlements"; sourceTree = "<group>"; };
+		E2DB0ADA1CFC20430047A4B0 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		E2DB0ADC1CFC20A40047A4B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E2DB0ADE1CFC20BD0047A4B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2DB0AE01CFC20D30047A4B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E2DB0AE21CFC20DB0047A4B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2DB0AE41CFC20E70047A4B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2DB0AE61CFC20F20047A4B0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E2DB0AE81CFC20FE0047A4B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2DB0AEB1CFC241F0047A4B0 /* IflyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IflyViewController.h; sourceTree = "<group>"; };
+		E2DB0AEC1CFC241F0047A4B0 /* IflyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IflyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +181,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DB0AE91CFC20FE0047A4B0 /* QuartzCore.framework in Frameworks */,
+				E2DB0AE71CFC20F20047A4B0 /* AddressBook.framework in Frameworks */,
+				E2DB0AE51CFC20E70047A4B0 /* CoreLocation.framework in Frameworks */,
+				E2DB0AE31CFC20DB0047A4B0 /* UIKit.framework in Frameworks */,
+				E2DB0AE11CFC20D30047A4B0 /* AudioToolbox.framework in Frameworks */,
+				E2DB0ADF1CFC20BD0047A4B0 /* Foundation.framework in Frameworks */,
+				E2DB0ADD1CFC20A40047A4B0 /* AVFoundation.framework in Frameworks */,
+				E2DB0ADB1CFC20430047A4B0 /* iflyMSC.framework in Frameworks */,
 				E27B01021CF2A94B0047FDF1 /* libz.tbd in Frameworks */,
 				E27B01001CF2A9420047FDF1 /* libstdc++.tbd in Frameworks */,
 				E27B00FE1CF2A9380047FDF1 /* CoreTelephony.framework in Frameworks */,
@@ -194,6 +221,13 @@
 		30A05B71A0E953D42A8DAD98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2DB0AE81CFC20FE0047A4B0 /* QuartzCore.framework */,
+				E2DB0AE61CFC20F20047A4B0 /* AddressBook.framework */,
+				E2DB0AE41CFC20E70047A4B0 /* CoreLocation.framework */,
+				E2DB0AE21CFC20DB0047A4B0 /* UIKit.framework */,
+				E2DB0AE01CFC20D30047A4B0 /* AudioToolbox.framework */,
+				E2DB0ADE1CFC20BD0047A4B0 /* Foundation.framework */,
+				E2DB0ADC1CFC20A40047A4B0 /* AVFoundation.framework */,
 				E27B01011CF2A94B0047FDF1 /* libz.tbd */,
 				E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */,
 				E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */,
@@ -238,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				E2D2FC4D1CE068D700B29872 /* Tool */,
+				E2DB0AD71CFC1C210047A4B0 /* lib */,
 				E2D2FC101CE05E5F00B29872 /* 程浩个人测试项目 */,
 				E2D2FC2A1CE05E5F00B29872 /* 程浩个人测试项目Tests */,
 				E2D2FC351CE05E5F00B29872 /* 程浩个人测试项目UITests */,
@@ -271,6 +306,7 @@
 				E2D2FC491CE0663800B29872 /* SDAutoLayout */,
 				E27B00EF1CF2A7D90047FDF1 /* Share */,
 				E20506B31CF6F767008257B1 /* POP */,
+				E2DB0AEA1CFC24080047A4B0 /* ifly */,
 				E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */,
 				E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */,
 				E2D2FC221CE05E5F00B29872 /* Info.plist */,
@@ -471,6 +507,23 @@
 				E2D2FC9E1CE079BB00B29872 /* LocationShareViewController.m */,
 			);
 			path = ShareSearch;
+			sourceTree = "<group>";
+		};
+		E2DB0AD71CFC1C210047A4B0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB0ADA1CFC20430047A4B0 /* iflyMSC.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E2DB0AEA1CFC24080047A4B0 /* ifly */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB0AEB1CFC241F0047A4B0 /* IflyViewController.h */,
+				E2DB0AEC1CFC241F0047A4B0 /* IflyViewController.m */,
+			);
+			path = ifly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -684,6 +737,7 @@
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
 				E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */,
 				E2D2FC7A1CE0692800B29872 /* DemoVC3.m in Sources */,
+				E2DB0AED1CFC241F0047A4B0 /* IflyViewController.m in Sources */,
 				E2D2FC4C1CE0688E00B29872 /* MasnoryViewController.m in Sources */,
 				E2D2FC791CE0692800B29872 /* DemoVC1.m in Sources */,
 				E2D2FC911CE06A9800B29872 /* AddGestureViewController.m in Sources */,
@@ -837,9 +891,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: 745260565@qq.com (5AE68EG3JV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 745260565@qq.com (5AE68EG3JV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/ch/Desktop/程浩个人测试项目/程浩个人测试项目/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
@@ -857,9 +915,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: 745260565@qq.com (5AE68EG3JV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 745260565@qq.com (5AE68EG3JV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/ch/Desktop/程浩个人测试项目/程浩个人测试项目/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
