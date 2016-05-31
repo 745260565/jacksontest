@@ -11,12 +11,14 @@
 //#import <iflyMSC/IFlySpeechSynthesizer.h>
 //#import <iflyMSC/IFlySpeechSynthesizerDelegate.h>
 
-@interface IflyViewController ()<IFlySpeechSynthesizerDelegate>
+@interface IflyViewController ()<IFlySpeechSynthesizerDelegate,IFlySpeechRecognizerDelegate>
 {
     UITextView *mainTextField;
     UIButton *speakButton;
     UIImageView *speackImageView;
     IFlySpeechSynthesizer *iFlySpeechSynthesizer;
+    UIButton *speechButton;
+    IFlySpeechRecognizer *iFlySpeechRecognizer;
 }
 @end
 
@@ -54,11 +56,26 @@
         make.height.mas_equalTo(46);
         make.centerY.mas_equalTo(mainTextField.mas_centerY);
     }];
+    
+    speechButton = [UIButton new];
+    [speechButton setTitle:@"按下录音" forState:UIControlStateNormal];
+    [speechButton setBackgroundColor:[UIColor greenColor]];
+    [speechButton addTarget:self action:@selector(speech) forControlEvents:UIControlEventTouchDown];
+    [speechButton addTarget:self action:@selector(speechOver) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)speak{
     [iFlySpeechSynthesizer setParameter:[NSString stringWithFormat:@"%@.pcm",[mainTextField.text substringToIndex:2]] forKey:[IFlySpeechConstant TTS_AUDIO_PATH]];
     [iFlySpeechSynthesizer startSpeaking:mainTextField.text];
+}
+
+- (void)speech{
+    iFlySpeechRecognizer = [IFlySpeechRecognizer sharedInstance];
+    [iFlySpeechRecognizer setParameter:@"iat" forKey:[IFlySpeechConstant IFLY_DOMAIN]];
+}
+
+- (void)speechOver{
+    
 }
 
 /**
