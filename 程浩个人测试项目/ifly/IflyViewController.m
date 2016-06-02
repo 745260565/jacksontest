@@ -28,10 +28,6 @@
     [super viewDidLoad];
     [self buildUI];
     self.view.backgroundColor = [UIColor whiteColor];
-    iFlySpeechSynthesizer = [IFlySpeechSynthesizer sharedInstance];
-    iFlySpeechSynthesizer.delegate = self;
-    [iFlySpeechSynthesizer setParameter:[IFlySpeechConstant TYPE_AUTO] forKey:[IFlySpeechConstant ENGINE_TYPE]];
-    [iFlySpeechSynthesizer setParameter:@"50" forKey:[IFlySpeechConstant VOLUME]];
     // Do any additional setup after loading the view.
 }
 
@@ -59,12 +55,24 @@
     
     speechButton = [UIButton new];
     [speechButton setTitle:@"按下录音" forState:UIControlStateNormal];
-    [speechButton setBackgroundColor:[UIColor greenColor]];
+    [speechButton setBackgroundColor:[UIColor grayColor]];
     [speechButton addTarget:self action:@selector(speech) forControlEvents:UIControlEventTouchDown];
     [speechButton addTarget:self action:@selector(speechOver) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:speechButton];
+    speechButton.layer.cornerRadius = 15.0f;
+    [speechButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(10);
+        make.top.mas_equalTo(mainTextField.mas_bottom).mas_offset(10);
+        make.height.mas_equalTo(30);
+        make.width.mas_equalTo(100);
+    }];
 }
 
 - (void)speak{
+    iFlySpeechSynthesizer = [IFlySpeechSynthesizer sharedInstance];
+    iFlySpeechSynthesizer.delegate = self;
+    [iFlySpeechSynthesizer setParameter:[IFlySpeechConstant TYPE_AUTO] forKey:[IFlySpeechConstant ENGINE_TYPE]];
+    [iFlySpeechSynthesizer setParameter:@"50" forKey:[IFlySpeechConstant VOLUME]];
     [iFlySpeechSynthesizer setParameter:[NSString stringWithFormat:@"%@.pcm",[mainTextField.text substringToIndex:2]] forKey:[IFlySpeechConstant TTS_AUDIO_PATH]];
     [iFlySpeechSynthesizer startSpeaking:mainTextField.text];
 }
@@ -72,10 +80,13 @@
 - (void)speech{
     iFlySpeechRecognizer = [IFlySpeechRecognizer sharedInstance];
     [iFlySpeechRecognizer setParameter:@"iat" forKey:[IFlySpeechConstant IFLY_DOMAIN]];
+    [iFlySpeechRecognizer setParameter:@"iat" forKey:[IFlySpeechConstant IFLY_DOMAIN]];
+    [iFlySpeechRecognizer setParameter:@"asrview.pcm" forKey:[IFlySpeechConstant ASR_AUDIO_PATH]];
+    [iFlySpeechRecognizer startListening];
 }
 
 - (void)speechOver{
-    
+    [iFlySpeechRecognizer stopListening];
 }
 
 /**
@@ -149,6 +160,10 @@
  */
 - (void) onEvent:(int)eventType arg0:(int)arg0 arg1:(int)arg1 data:(NSData *)eventData{
     
+}
+
+- (void)onResults:(NSArray *)results isLast:(BOOL)isLast{
+    NSLog(@"results:%@",results);
 }
 
 - (void)didReceiveMemoryWarning {

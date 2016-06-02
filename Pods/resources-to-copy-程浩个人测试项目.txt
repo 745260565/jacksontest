@@ -1,5 +1,0 @@
-/Users/ch/Desktop/程浩个人测试项目/Pods/AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMap.bundle
-/Users/ch/Desktop/程浩个人测试项目/Pods/AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMapNavi.bundle
-/Users/ch/Desktop/程浩个人测试项目/Pods/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle
-/Users/ch/Desktop/程浩个人测试项目/Pods/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle
-/Users/ch/Desktop/程浩个人测试项目/Pods/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle
