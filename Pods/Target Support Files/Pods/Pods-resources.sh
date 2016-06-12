@@ -58,8 +58,8 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMap.bundle"
-  install_resource "AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMapNavi.bundle"
+  install_resource "AMap3DMap/MAMapKit.framework/AMap.bundle"
+  install_resource "AMapNavi/AMapNaviKit.framework/AMapNavi.bundle"
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle"
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle"
@@ -75,8 +75,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/zh-Hans.lproj"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMap.bundle"
-  install_resource "AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMapNavi.bundle"
+  install_resource "AMap3DMap/MAMapKit.framework/AMap.bundle"
+  install_resource "AMapNavi/AMapNaviKit.framework/AMapNavi.bundle"
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle"
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle"

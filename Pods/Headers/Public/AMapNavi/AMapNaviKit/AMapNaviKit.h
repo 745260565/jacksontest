@@ -1,1 +1,1 @@
-../../../../AMapNavi/AMapNaviKit.framework/Versions/1.5.0.3533b29/Headers/AMapNaviKit.h
+../../../../AMapNavi/AMapNaviKit.framework/Headers/AMapNaviKit.h

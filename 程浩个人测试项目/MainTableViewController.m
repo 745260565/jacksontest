@@ -41,8 +41,8 @@
 
 #pragma mark - Initialization
 - (void)initTitles{
-    titles = @[@"高德地图2D",@"Masonry",@"SDAutoLayout",@"第三方分享",@"pop动画",@"讯飞语音",@"多线程"];
-    VCTitles = @[@"MainMapViewController",@"MasnoryViewController",@"DemoTableViewController",@"ShareVC",@"PopViewController",@"IflyViewController",@"GCDViewController"];
+    titles = @[@"高德地图2D",@"Masonry",@"SDAutoLayout",@"第三方分享",@"pop动画",@"讯飞语音",@"多线程",@"绘图"];
+    VCTitles = @[@"MainMapViewController",@"MasnoryViewController",@"DemoTableViewController",@"ShareVC",@"PopViewController",@"IflyViewController",@"GCDViewController",@"DrawVC"];
 }
 
 #pragma mark - Life Cycle

@@ -19,7 +19,7 @@
 - (void)returnAction{
     [super returnAction];
     [self initTipView];
-    self.mapView.showsUserLocation = NO;
+//    self.mapView.showsUserLocation = NO;
 }
 
 #pragma mark - Life Cycle

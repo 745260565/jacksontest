@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <AMapNaviKit/MAMapKit.h>
+//#import <AMapNaviKit/MAMapKit.h>
 #import "UMSocial.h"
 
 @interface AppDelegate ()
@@ -18,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [MAMapServices sharedServices].apiKey = AMAPAppKey;
+//    [MAMapServices sharedServices].apiKey = AMAPAppKey;
     [UMSocialData setAppKey:UMShareKey];
     
     // 讯飞初始化
@@ -50,6 +50,7 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://13435315692"]];
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 

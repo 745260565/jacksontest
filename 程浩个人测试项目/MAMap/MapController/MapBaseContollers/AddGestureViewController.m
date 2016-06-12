@@ -49,20 +49,20 @@
     return YES;
 }
 
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
-{
-    if (gestureRecognizer == self.singleTap && ([touch.view isKindOfClass:[UIControl class]] || [touch.view isKindOfClass:[MAAnnotationView class]]))
-    {
-        return NO;
-    }
-    
-    if (gestureRecognizer == self.doubleTap && [touch.view isKindOfClass:[UIControl class]])
-    {
-        return NO;
-    }
-    
-    return YES;
-}
+//- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+//{
+//    if (gestureRecognizer == self.singleTap && ([touch.view isKindOfClass:[UIControl class]] || [touch.view isKindOfClass:[MAAnnotationView class]]))
+//    {
+//        return NO;
+//    }
+//    
+//    if (gestureRecognizer == self.doubleTap && [touch.view isKindOfClass:[UIControl class]])
+//    {
+//        return NO;
+//    }
+//    
+//    return YES;
+//}
 
 #pragma mark - Handle Gestures
 

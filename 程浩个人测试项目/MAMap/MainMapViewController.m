@@ -16,7 +16,7 @@
 @property (nonatomic, strong) NSArray *classNames;
 @property (nonatomic, strong) UITableView *tableView;
 
-@property (nonatomic, strong) MAMapView *mapView;
+//@property (nonatomic, strong) MAMapView *mapView;
 @property (nonatomic, strong) AMapSearchAPI *search;
 @property (nonatomic, strong) CLLocationManager *locationManager;
 @end
@@ -25,7 +25,7 @@
 @synthesize titles = _titles;
 @synthesize classNames = _classNames;
 @synthesize tableView = _tableView;
-@synthesize mapView = _mapView;
+//@synthesize mapView = _mapView;
 @synthesize search = _search;
 
 #pragma mark - UITableViewDataSource
@@ -77,7 +77,7 @@
     NSString *className = self.classNames[indexPath.section][indexPath.row];
     BaseMapViewController *subViewController = [[NSClassFromString(className) alloc] init];
     subViewController.title = self.titles[indexPath.section][indexPath.row];
-    subViewController.mapView = self.mapView;
+//    subViewController.mapView = self.mapView;
     subViewController.search = self.search;
     
     [self.navigationController pushViewController:(UIViewController*)subViewController animated:YES];
@@ -191,7 +191,7 @@
 
 - (void)initMapView
 {
-    self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
+//    self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
     
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0)
     {
@@ -203,7 +203,7 @@
 /* 初始化search. */
 - (void)initSearch
 {
-    [AMapSearchServices sharedServices].apiKey = AMAPAppKey;
+//    [AMapSearchServices sharedServices].apiKey = AMAPAppKey;
     self.search = [[AMapSearchAPI alloc] init];
 }
 

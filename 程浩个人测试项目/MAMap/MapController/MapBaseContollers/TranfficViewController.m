@@ -13,7 +13,7 @@
 #pragma mark - Action Handle
 - (void)tranfficAction:(UISwitch*)switcher
 {
-    self.mapView.showTraffic = switcher.on;
+//    self.mapView.showTraffic = switcher.on;
 }
 
 #pragma mark - Initialization
@@ -37,7 +37,7 @@
 {
     [super viewDidAppear:animated];
     
-    self.mapView.showTraffic = YES;
+//    self.mapView.showTraffic = YES;
 }
 
 - (void)viewDidDisappear:(BOOL)animated
@@ -45,7 +45,7 @@
     [super viewDidDisappear:animated];
     
     /* Reset traffic. */
-    self.mapView.showTraffic = NO;
+//    self.mapView.showTraffic = NO;
 }
 
 @end

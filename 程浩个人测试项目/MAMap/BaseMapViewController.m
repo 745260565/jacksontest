@@ -13,20 +13,20 @@
 @end
 
 @implementation BaseMapViewController
-@synthesize mapView = _mapView;
+//@synthesize mapView = _mapView;
 @synthesize search  = _search;
 
 #pragma mark - Utility
 
 - (void)clearMapView
 {
-    self.mapView.showsUserLocation = NO;
-    
-    [self.mapView removeAnnotations:self.mapView.annotations];
-    
-    [self.mapView removeOverlays:self.mapView.overlays];
-    
-    self.mapView.delegate = nil;
+//    self.mapView.showsUserLocation = NO;
+//    
+//    [self.mapView removeAnnotations:self.mapView.annotations];
+//    
+//    [self.mapView removeOverlays:self.mapView.overlays];
+//    
+//    self.mapView.delegate = nil;
 }
 
 - (void)clearSearch
@@ -64,11 +64,11 @@
 
 - (void)initMapView
 {
-    self.mapView.frame = self.view.bounds;
-    
-    self.mapView.delegate = self;
-    
-    [self.view addSubview:self.mapView];
+//    self.mapView.frame = self.view.bounds;
+//    
+//    self.mapView.delegate = self;
+//    
+//    [self.view addSubview:self.mapView];
 }
 
 - (void)initSearch
@@ -125,7 +125,7 @@
     
     if (_isFirstAppear)
     {
-        self.mapView.visibleMapRect = MAMapRectMake(220880104, 101476980, 272496, 466656);
+//        self.mapView.visibleMapRect = MAMapRectMake(220880104, 101476980, 272496, 466656);
         _isFirstAppear = NO;
         
         [self hookAction];

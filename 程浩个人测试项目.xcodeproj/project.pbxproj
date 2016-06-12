@@ -23,6 +23,7 @@
 		E26A23F51CFEB1C5005C7711 /* UIView+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23E41CFEB1C5005C7711 /* UIView+Runtime.m */; };
 		E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23FF1CFFCFF8005C7711 /* UIImage+Circle.m */; };
 		E26A24041D002331005C7711 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A24031D002331005C7711 /* GCDViewController.m */; };
+		E26A24081D06A2BB005C7711 /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A24071D06A2BB005C7711 /* DrawVC.m */; };
 		E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B00F11CF2A83C0047FDF1 /* ShareVC.m */; };
 		E27B00F41CF2A8F30047FDF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F31CF2A8F30047FDF1 /* Security.framework */; };
 		E27B00F61CF2A9080047FDF1 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F51CF2A9080047FDF1 /* libiconv.2.4.0.tbd */; };
@@ -126,6 +127,8 @@
 		E26A23FF1CFFCFF8005C7711 /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
 		E26A24021D002331005C7711 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		E26A24031D002331005C7711 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		E26A24061D06A2BB005C7711 /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
+		E26A24071D06A2BB005C7711 /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
 		E27B00F01CF2A83C0047FDF1 /* ShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareVC.h; sourceTree = "<group>"; };
 		E27B00F11CF2A83C0047FDF1 /* ShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareVC.m; sourceTree = "<group>"; };
 		E27B00F31CF2A8F30047FDF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -341,6 +344,15 @@
 			path = "多线程";
 			sourceTree = "<group>";
 		};
+		E26A24051D06A274005C7711 /* 绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				E26A24061D06A2BB005C7711 /* DrawVC.h */,
+				E26A24071D06A2BB005C7711 /* DrawVC.m */,
+			);
+			path = "绘图";
+			sourceTree = "<group>";
+		};
 		E27B00EF1CF2A7D90047FDF1 /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +403,7 @@
 				E20506B31CF6F767008257B1 /* POP */,
 				E2DB0AEA1CFC24080047A4B0 /* ifly */,
 				E26A24011D0022FD005C7711 /* 多线程 */,
+				E26A24051D06A274005C7711 /* 绘图 */,
 				E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */,
 				E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */,
 				E2D2FC221CE05E5F00B29872 /* Info.plist */,
@@ -806,6 +819,7 @@
 				E26A23F31CFEB1C5005C7711 /* UIView+Extension.m in Sources */,
 				E2D2FC821CE06A5B00B29872 /* ViewController.m in Sources */,
 				E2D2FC781CE0692800B29872 /* DemoVC0.m in Sources */,
+				E26A24081D06A2BB005C7711 /* DrawVC.m in Sources */,
 				E2D2FC6B1CE0690500B29872 /* DemoTableViewController.m in Sources */,
 				E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */,
 				E2D2FC131CE05E5F00B29872 /* main.m in Sources */,

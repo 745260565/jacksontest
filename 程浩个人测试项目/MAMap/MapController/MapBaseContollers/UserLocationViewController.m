@@ -16,19 +16,19 @@
 @implementation UserLocationViewController
 @synthesize showSegment,modeSegment;
 #pragma mark - MAMapViewDelegate
-- (void)mapView:(MAMapView *)mapView didChangeUserTrackingMode:(MAUserTrackingMode)mode animated:(BOOL)animated{
-    self.modeSegment.selectedSegmentIndex = mode;
-}
+//- (void)mapView:(MAMapView *)mapView didChangeUserTrackingMode:(MAUserTrackingMode)mode animated:(BOOL)animated{
+//    self.modeSegment.selectedSegmentIndex = mode;
+//}
 
 #pragma mark - Action Handl
 - (void)showsSegmentAction:(UISegmentedControl *)sender
 {
-    self.mapView.showsUserLocation = !sender.selectedSegmentIndex;
+//    self.mapView.showsUserLocation = !sender.selectedSegmentIndex;
 }
 
 - (void)modeAction:(UISegmentedControl *)sender
 {
-    self.mapView.userTrackingMode = sender.selectedSegmentIndex;
+//    self.mapView.userTrackingMode = sender.selectedSegmentIndex;
 }
 
 #pragma mark - NSKeyValueObservering
@@ -66,16 +66,16 @@
 - (void)initObservers
 {
     /* Add observer for showsUserLocation. */
-    [self.mapView addObserver:self forKeyPath:@"showsUserLocation" options:NSKeyValueObservingOptionNew context:nil];
+//    [self.mapView addObserver:self forKeyPath:@"showsUserLocation" options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)returnAction
 {
     [super returnAction];
     
-    self.mapView.userTrackingMode  = MAUserTrackingModeNone;
+//    self.mapView.userTrackingMode  = MAUserTrackingModeNone;
     
-    [self.mapView removeObserver:self forKeyPath:@"showsUserLocation"];
+//    [self.mapView removeObserver:self forKeyPath:@"showsUserLocation"];
 }
 
 #pragma mark - Life Cycle
@@ -86,7 +86,7 @@
     
     [self initToolBar];
     
-    [self.mapView setCompassImage:[UIImage imageNamed:@"compass"]];
+//    [self.mapView setCompassImage:[UIImage imageNamed:@"compass"]];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -103,8 +103,8 @@
 {
     [super viewDidAppear:animated];
     
-    self.mapView.showsUserLocation = YES;
-    self.mapView.userTrackingMode = MAUserTrackingModeFollow;
+//    self.mapView.showsUserLocation = YES;
+//    self.mapView.userTrackingMode = MAUserTrackingModeFollow;
     
 }
 

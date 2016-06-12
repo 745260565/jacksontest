@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AMapNaviKit/MAMapKit.h>
+//#import <AMapNaviKit/MAMapKit.h>
 #import <AMapSearchKit/AMapSearchKit.h>
 
-@interface BaseMapViewController : UIViewController<MAMapViewDelegate, AMapSearchDelegate>
+@interface BaseMapViewController : UIViewController//<MAMapViewDelegate, AMapSearchDelegate>
 
-@property (nonatomic,strong) MAMapView *mapView;
+//@property (nonatomic,strong) MAMapView *mapView;
 @property (nonatomic,strong) AMapSearchAPI *search;
 
 - (void)returnAction;
