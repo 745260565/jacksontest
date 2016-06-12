@@ -33,6 +33,14 @@
 		E27B00FE1CF2A9380047FDF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */; };
 		E27B01001CF2A9420047FDF1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */; };
 		E27B01021CF2A94B0047FDF1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B01011CF2A94B0047FDF1 /* libz.tbd */; };
+		E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28252BA1D0D59D600764C97 /* QLViewController.m */; };
+		E28252C41D0D5A2C00764C97 /* S1.ppt in Resources */ = {isa = PBXBuildFile; fileRef = E28252BD1D0D5A2C00764C97 /* S1.ppt */; };
+		E28252C51D0D5A2C00764C97 /* S2.docx in Resources */ = {isa = PBXBuildFile; fileRef = E28252BE1D0D5A2C00764C97 /* S2.docx */; };
+		E28252C61D0D5A2C00764C97 /* S3.doc in Resources */ = {isa = PBXBuildFile; fileRef = E28252BF1D0D5A2C00764C97 /* S3.doc */; };
+		E28252C71D0D5A2C00764C97 /* S4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E28252C01D0D5A2C00764C97 /* S4.rtf */; };
+		E28252C81D0D5A2C00764C97 /* S5.png in Resources */ = {isa = PBXBuildFile; fileRef = E28252C11D0D5A2C00764C97 /* S5.png */; };
+		E28252C91D0D5A2C00764C97 /* S6.csv in Resources */ = {isa = PBXBuildFile; fileRef = E28252C21D0D5A2C00764C97 /* S6.csv */; };
+		E28252CA1D0D5A2C00764C97 /* S7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E28252C31D0D5A2C00764C97 /* S7.pdf */; };
 		E2D2FC131CE05E5F00B29872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC121CE05E5F00B29872 /* main.m */; };
 		E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC151CE05E5F00B29872 /* AppDelegate.m */; };
 		E2D2FC1C1CE05E5F00B29872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */; };
@@ -139,6 +147,15 @@
 		E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		E27B01011CF2A94B0047FDF1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E28252B91D0D59D600764C97 /* QLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
+		E28252BA1D0D59D600764C97 /* QLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
+		E28252BD1D0D5A2C00764C97 /* S1.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = S1.ppt; sourceTree = "<group>"; };
+		E28252BE1D0D5A2C00764C97 /* S2.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = S2.docx; sourceTree = "<group>"; };
+		E28252BF1D0D5A2C00764C97 /* S3.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = S3.doc; sourceTree = "<group>"; };
+		E28252C01D0D5A2C00764C97 /* S4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = S4.rtf; sourceTree = "<group>"; };
+		E28252C11D0D5A2C00764C97 /* S5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S5.png; sourceTree = "<group>"; };
+		E28252C21D0D5A2C00764C97 /* S6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = S6.csv; sourceTree = "<group>"; };
+		E28252C31D0D5A2C00764C97 /* S7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = S7.pdf; sourceTree = "<group>"; };
 		E2D2FC0E1CE05E5F00B29872 /* 程浩个人测试项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "程浩个人测试项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D2FC121CE05E5F00B29872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2D2FC141CE05E5F00B29872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -362,6 +379,30 @@
 			path = Share;
 			sourceTree = "<group>";
 		};
+		E28252B81D0D599600764C97 /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				E28252BC1D0D5A1C00764C97 /* Documents Files */,
+				E28252B91D0D59D600764C97 /* QLViewController.h */,
+				E28252BA1D0D59D600764C97 /* QLViewController.m */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		E28252BC1D0D5A1C00764C97 /* Documents Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28252BD1D0D5A2C00764C97 /* S1.ppt */,
+				E28252BE1D0D5A2C00764C97 /* S2.docx */,
+				E28252BF1D0D5A2C00764C97 /* S3.doc */,
+				E28252C01D0D5A2C00764C97 /* S4.rtf */,
+				E28252C11D0D5A2C00764C97 /* S5.png */,
+				E28252C21D0D5A2C00764C97 /* S6.csv */,
+				E28252C31D0D5A2C00764C97 /* S7.pdf */,
+			);
+			path = "Documents Files";
+			sourceTree = "<group>";
+		};
 		E2D2FC051CE05E5F00B29872 = {
 			isa = PBXGroup;
 			children = (
@@ -404,6 +445,7 @@
 				E2DB0AEA1CFC24080047A4B0 /* ifly */,
 				E26A24011D0022FD005C7711 /* 多线程 */,
 				E26A24051D06A274005C7711 /* 绘图 */,
+				E28252B81D0D599600764C97 /* QuickLook */,
 				E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */,
 				E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */,
 				E2D2FC221CE05E5F00B29872 /* Info.plist */,
@@ -740,10 +782,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28252CA1D0D5A2C00764C97 /* S7.pdf in Resources */,
+				E28252C51D0D5A2C00764C97 /* S2.docx in Resources */,
+				E28252C81D0D5A2C00764C97 /* S5.png in Resources */,
+				E28252C41D0D5A2C00764C97 /* S1.ppt in Resources */,
 				E2D2FC211CE05E5F00B29872 /* LaunchScreen.storyboard in Resources */,
 				E2D2FC1E1CE05E5F00B29872 /* Assets.xcassets in Resources */,
+				E28252C91D0D5A2C00764C97 /* S6.csv in Resources */,
+				E28252C61D0D5A2C00764C97 /* S3.doc in Resources */,
 				E2D2FC1C1CE05E5F00B29872 /* Main.storyboard in Resources */,
 				E2D2FC611CE068E200B29872 /* sdRefeshView_arrow@2x.png in Resources */,
+				E28252C71D0D5A2C00764C97 /* S4.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +886,7 @@
 				E2D2FC601CE068E200B29872 /* UIView+SDAutoLayout.m in Sources */,
 				E26A23EB1CFEB1C5005C7711 /* UIButton+Extension.m in Sources */,
 				E26A23EF1CFEB1C5005C7711 /* UIImage+ScreenShot.m in Sources */,
+				E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */,
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
 				E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */,
 				E2D2FC7A1CE0692800B29872 /* DemoVC3.m in Sources */,
