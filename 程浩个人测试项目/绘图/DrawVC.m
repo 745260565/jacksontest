@@ -7,13 +7,24 @@
 //
 
 #import "DrawVC.h"
+#import "CircleProgressViewController.h"
 
 @implementation DrawVC
 
 - (void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *button1 = [[UIButton alloc] initWithFrame:CGRectMake(20, 100, 100, 40)];
+    [button1 addTarget:self action:@selector(circleProgress) forControlEvents:UIControlEventTouchUpInside];
+    [button1 setBackgroundColor:[UIColor grayColor]];
+    [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button1 setTitle:@"循环" forState:UIControlStateNormal];
+    [self.view addSubview:button1];
 //    [self drawLine1];
+}
+
+- (void)circleProgress{
+    [self.navigationController pushViewController:[CircleProgressViewController new] animated:YES];
 }
 
 - (void)drawRect:(CGRect)rect{

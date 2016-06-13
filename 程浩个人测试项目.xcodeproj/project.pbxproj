@@ -41,6 +41,8 @@
 		E28252C81D0D5A2C00764C97 /* S5.png in Resources */ = {isa = PBXBuildFile; fileRef = E28252C11D0D5A2C00764C97 /* S5.png */; };
 		E28252C91D0D5A2C00764C97 /* S6.csv in Resources */ = {isa = PBXBuildFile; fileRef = E28252C21D0D5A2C00764C97 /* S6.csv */; };
 		E28252CA1D0D5A2C00764C97 /* S7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E28252C31D0D5A2C00764C97 /* S7.pdf */; };
+		E2A224C91D0E5F4300A448CA /* THCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A224C81D0E5F4300A448CA /* THCircularProgressView.m */; };
+		E2A224CC1D0E5F6F00A448CA /* CircleProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A224CB1D0E5F6F00A448CA /* CircleProgressViewController.m */; };
 		E2D2FC131CE05E5F00B29872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC121CE05E5F00B29872 /* main.m */; };
 		E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC151CE05E5F00B29872 /* AppDelegate.m */; };
 		E2D2FC1C1CE05E5F00B29872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */; };
@@ -156,6 +158,10 @@
 		E28252C11D0D5A2C00764C97 /* S5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S5.png; sourceTree = "<group>"; };
 		E28252C21D0D5A2C00764C97 /* S6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = S6.csv; sourceTree = "<group>"; };
 		E28252C31D0D5A2C00764C97 /* S7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = S7.pdf; sourceTree = "<group>"; };
+		E2A224C71D0E5F4300A448CA /* THCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCircularProgressView.h; sourceTree = "<group>"; };
+		E2A224C81D0E5F4300A448CA /* THCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCircularProgressView.m; sourceTree = "<group>"; };
+		E2A224CA1D0E5F6F00A448CA /* CircleProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressViewController.h; sourceTree = "<group>"; };
+		E2A224CB1D0E5F6F00A448CA /* CircleProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressViewController.m; sourceTree = "<group>"; };
 		E2D2FC0E1CE05E5F00B29872 /* 程浩个人测试项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "程浩个人测试项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D2FC121CE05E5F00B29872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2D2FC141CE05E5F00B29872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -366,6 +372,9 @@
 			children = (
 				E26A24061D06A2BB005C7711 /* DrawVC.h */,
 				E26A24071D06A2BB005C7711 /* DrawVC.m */,
+				E2A224CA1D0E5F6F00A448CA /* CircleProgressViewController.h */,
+				E2A224CB1D0E5F6F00A448CA /* CircleProgressViewController.m */,
+				E2A224C61D0E5F4300A448CA /* THCircularProgressView */,
 			);
 			path = "绘图";
 			sourceTree = "<group>";
@@ -401,6 +410,15 @@
 				E28252C31D0D5A2C00764C97 /* S7.pdf */,
 			);
 			path = "Documents Files";
+			sourceTree = "<group>";
+		};
+		E2A224C61D0E5F4300A448CA /* THCircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				E2A224C71D0E5F4300A448CA /* THCircularProgressView.h */,
+				E2A224C81D0E5F4300A448CA /* THCircularProgressView.m */,
+			);
+			path = THCircularProgressView;
 			sourceTree = "<group>";
 		};
 		E2D2FC051CE05E5F00B29872 = {
@@ -869,6 +887,7 @@
 				E2D2FC821CE06A5B00B29872 /* ViewController.m in Sources */,
 				E2D2FC781CE0692800B29872 /* DemoVC0.m in Sources */,
 				E26A24081D06A2BB005C7711 /* DrawVC.m in Sources */,
+				E2A224C91D0E5F4300A448CA /* THCircularProgressView.m in Sources */,
 				E2D2FC6B1CE0690500B29872 /* DemoTableViewController.m in Sources */,
 				E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */,
 				E2D2FC131CE05E5F00B29872 /* main.m in Sources */,
@@ -879,6 +898,7 @@
 				E2D2FC8F1CE06A9800B29872 /* BaseMapViewController.m in Sources */,
 				E2D2FCA21CE07C6D00B29872 /* UserLocationViewController.m in Sources */,
 				E2D2FC901CE06A9800B29872 /* MainMapViewController.m in Sources */,
+				E2A224CC1D0E5F6F00A448CA /* CircleProgressViewController.m in Sources */,
 				E2D2FC9C1CE0783700B29872 /* ShareSearchBaseViewController.m in Sources */,
 				E2D2FC931CE06A9800B29872 /* TranfficViewController.m in Sources */,
 				E2D2FC651CE068E200B29872 /* UIView+SDExtension.m in Sources */,

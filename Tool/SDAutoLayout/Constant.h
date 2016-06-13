@@ -13,7 +13,7 @@
 #define UMShareKey @"57306434e0f55a8474001aff"
 #define IFLYAppKey @"574be2c3"
 
-//屏幕宽高
+//屏幕宽高 横屏的
 #define EDTabbrWidth LengthInIP6(71)
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width<[UIScreen mainScreen].bounds.size.height ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width)
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.width>[UIScreen mainScreen].bounds.size.height ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width)
@@ -48,6 +48,25 @@ alpha:1.0]
 green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
 blue:((float)(rgbValue & 0xFF)) / 255.0 \
 alpha:a]
+
+#define ClearColor [UIColor clearColor]
+#define WhiteColor [UIColor whiteColor]
+#define GrayColor [UIColor grayColor]
+#define GreenColor [UIColor greenColor]
+#define GroupTableViewBackgroundColor [UIColor groupTableViewBackgroundColor]
+#define DarkGrayColor [UIColor darkGrayColor]
+#define LightGrayColor [UIColor lightGrayColor]
+#define BlackColor [UIColor blackColor]
+#define BlueColor [UIColor blueColor]
+#define BrownColor [UIColor brownColor]
+#define DarkTextColor [UIColor darkTextColor]
+#define LightTextColor [UIColor lightTextColor]
+#define MagentaColor [UIColor magentaColor]
+#define OrangeColor [UIColor orangeColor]
+#define PurpleColor [UIColor purpleColor]
+#define RedColor [UIColor redColor]
+#define YellowColor [UIColor yellowColor]
+#define CyanColor [UIColor cyanColor]
 
 #define weakify_self   __weak typeof(self) weakSelf = self;
 #define strongify_self __strong typeof(self) self = weakSelf;
