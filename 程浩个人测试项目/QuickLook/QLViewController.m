@@ -43,6 +43,7 @@
 }
 -(id<QLPreviewItem>)previewController:(QLPreviewController *)controller previewItemAtIndex:(NSInteger)index{
     NSString *path=[[NSBundle mainBundle] pathForResource:[filenamesArray objectAtIndex:index] ofType:nil];
+    NSLog(@"%@",path);
     return [NSURL fileURLWithPath:path];
 }
 

@@ -8,6 +8,7 @@
 
 #import "DrawVC.h"
 #import "CircleProgressViewController.h"
+#import "GuaGuaLeViewController.h"
 
 @implementation DrawVC
 
@@ -18,43 +19,23 @@
     [button1 addTarget:self action:@selector(circleProgress) forControlEvents:UIControlEventTouchUpInside];
     [button1 setBackgroundColor:[UIColor grayColor]];
     [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [button1 setTitle:@"循环" forState:UIControlStateNormal];
+    [button1 setTitle:@"循环圆环" forState:UIControlStateNormal];
     [self.view addSubview:button1];
-//    [self drawLine1];
+    
+    UIButton *button2 = [[UIButton alloc] initWithFrame:CGRectMake(140, 100, 100, 40)];
+    [button2 addTarget:self action:@selector(guaguale) forControlEvents:UIControlEventTouchUpInside];
+    [button2 setBackgroundColor:GrayColor];
+    [button2 setTitleColor:BlackColor forState:UIControlStateNormal];
+    [button2 setTitle:@"刮刮乐" forState:UIControlStateNormal];
+    [self.view addSubview:button2];
 }
 
 - (void)circleProgress{
     [self.navigationController pushViewController:[CircleProgressViewController new] animated:YES];
 }
 
-- (void)drawRect:(CGRect)rect{
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, NULL, 20, 20);
-    CGPathAddLineToPoint(path, NULL, 200, 300);
-    CGContextAddPath(ctx, path);
-    CGMutablePathRef path1 = CGPathCreateMutable();
-    CGPathAddEllipseInRect(path1, NULL, CGRectMake(50, 50, 100, 100));
-    CGContextAddPath(ctx, path1);
-    CGContextStrokePath(ctx);
-    CGContextSetStrokeColor(ctx, 0x000000);
-    CGPathRelease(path);
-    CGPathRelease(path1);
-}
-
-- (void)drawLine1{
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, NULL, 20, 20);
-    CGPathAddLineToPoint(path, NULL, 200, 300);
-    CGContextAddPath(ctx, path);
-    CGMutablePathRef path1 = CGPathCreateMutable();
-    CGPathAddEllipseInRect(path1, NULL, CGRectMake(50, 50, 100, 100));
-    CGContextAddPath(ctx, path1);
-    CGContextStrokePath(ctx);
-    CGContextSetStrokeColor(ctx, 0x000000);
-    CGPathRelease(path);
-    CGPathRelease(path1);
+- (void)guaguale{
+    [self.navigationController pushViewController:[GuaGuaLeViewController new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning{
