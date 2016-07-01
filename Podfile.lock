@@ -26,6 +26,7 @@ PODS:
     - AMapFoundation (= 1.0.0)
   - Masonry (1.0.1)
   - pop (1.0.9)
+  - SVProgressHUD (2.0.3)
   - UMengSocialCOM (5.2.1)
 
 DEPENDENCIES:
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - AMapSearch
   - Masonry
   - pop (~> 1.0.9)
+  - SVProgressHUD (~> 2.0.3)
   - UMengSocialCOM (~> 5.2)
 
 SPEC CHECKSUMS:
@@ -46,6 +48,7 @@ SPEC CHECKSUMS:
   AMapSearch: 867e89123c927436713372803156ac9848d9868a
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
 COCOAPODS: 0.39.0

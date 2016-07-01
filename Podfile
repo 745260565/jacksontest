@@ -9,3 +9,4 @@ pod 'AMapLocation' #定位SDK
 pod 'UMengSocialCOM', '~> 5.2'
 pod 'pop', '~> 1.0.9'
 pod 'AFNetworking', '~> 3.1.0'
+pod 'SVProgressHUD', '~> 2.0.3'
