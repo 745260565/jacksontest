@@ -9,6 +9,7 @@
 #import "DrawVC.h"
 #import "CircleProgressViewController.h"
 #import "GuaGuaLeViewController.h"
+#import "PaintViewController.h"
 
 @implementation DrawVC
 
@@ -28,6 +29,13 @@
     [button2 setTitleColor:BlackColor forState:UIControlStateNormal];
     [button2 setTitle:@"刮刮乐" forState:UIControlStateNormal];
     [self.view addSubview:button2];
+    
+    UIButton *button3 = [[UIButton alloc] initWithFrame:CGRectMake(20, 160, 100, 40)];
+    [button3 addTarget:self action:@selector(paint) forControlEvents:UIControlEventTouchUpInside];
+    [button3 setBackgroundColor:GrayColor];
+    [button3 setTitle:@"涂鸦" forState:UIControlStateNormal];
+    [button3 setTitleColor:BlackColor forState:UIControlStateNormal];
+    [self.view addSubview:button3];
 }
 
 - (void)circleProgress{
@@ -36,6 +44,10 @@
 
 - (void)guaguale{
     [self.navigationController pushViewController:[GuaGuaLeViewController new] animated:YES];
+}
+
+- (void)paint{
+    [self.navigationController pushViewController:[PaintViewController new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning{

@@ -11,6 +11,8 @@
 		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
 		E22702F21D2374C6000C266C /* GesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702F11D2374C6000C266C /* GesViewController.m */; };
 		E22702F51D23CFF0000C266C /* KMGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702F41D23CFF0000C266C /* KMGestureRecognizer.m */; };
+		E22702F81D267146000C266C /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702F71D267146000C266C /* PaintViewController.m */; };
+		E22702FB1D267189000C266C /* PaintView01.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702FA1D267189000C266C /* PaintView01.m */; };
 		E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2311BF71D22124500464FF4 /* GuaGuaLeViewController.m */; };
 		E26A23E51CFEB1C5005C7711 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23C51CFEB1C5005C7711 /* Foundation+Log.m */; };
 		E26A23E61CFEB1C5005C7711 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23C71CFEB1C5005C7711 /* NSDate+Extension.m */; };
@@ -27,6 +29,8 @@
 		E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23FF1CFFCFF8005C7711 /* UIImage+Circle.m */; };
 		E26A24041D002331005C7711 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A24031D002331005C7711 /* GCDViewController.m */; };
 		E26A24081D06A2BB005C7711 /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A24071D06A2BB005C7711 /* DrawVC.m */; };
+		E26B41C51D29F8EF004FD9AA /* PaintView02.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B41C41D29F8EF004FD9AA /* PaintView02.m */; };
+		E26B41C91D29FE46004FD9AA /* PaintStep.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B41C81D29FE46004FD9AA /* PaintStep.m */; };
 		E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B00F11CF2A83C0047FDF1 /* ShareVC.m */; };
 		E27B00F41CF2A8F30047FDF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F31CF2A8F30047FDF1 /* Security.framework */; };
 		E27B00F61CF2A9080047FDF1 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F51CF2A9080047FDF1 /* libiconv.2.4.0.tbd */; };
@@ -36,6 +40,7 @@
 		E27B00FE1CF2A9380047FDF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */; };
 		E27B01001CF2A9420047FDF1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */; };
 		E27B01021CF2A94B0047FDF1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B01011CF2A94B0047FDF1 /* libz.tbd */; };
+		E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2802FEE1D2B921700985091 /* AnimateViewController.m */; };
 		E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28252BA1D0D59D600764C97 /* QLViewController.m */; };
 		E2A224C91D0E5F4300A448CA /* THCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A224C81D0E5F4300A448CA /* THCircularProgressView.m */; };
 		E2A224CC1D0E5F6F00A448CA /* CircleProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A224CB1D0E5F6F00A448CA /* CircleProgressViewController.m */; };
@@ -144,6 +149,10 @@
 		E22702F11D2374C6000C266C /* GesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesViewController.m; sourceTree = "<group>"; };
 		E22702F31D23CFF0000C266C /* KMGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMGestureRecognizer.h; sourceTree = "<group>"; };
 		E22702F41D23CFF0000C266C /* KMGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMGestureRecognizer.m; sourceTree = "<group>"; };
+		E22702F61D267146000C266C /* PaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
+		E22702F71D267146000C266C /* PaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
+		E22702F91D267189000C266C /* PaintView01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView01.h; sourceTree = "<group>"; };
+		E22702FA1D267189000C266C /* PaintView01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView01.m; sourceTree = "<group>"; };
 		E2311BF61D22124500464FF4 /* GuaGuaLeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuaGuaLeViewController.h; sourceTree = "<group>"; };
 		E2311BF71D22124500464FF4 /* GuaGuaLeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuaGuaLeViewController.m; sourceTree = "<group>"; };
 		E26A23C41CFEB1C5005C7711 /* BXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXExtensions.h; sourceTree = "<group>"; };
@@ -175,6 +184,10 @@
 		E26A24031D002331005C7711 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		E26A24061D06A2BB005C7711 /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
 		E26A24071D06A2BB005C7711 /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
+		E26B41C31D29F8EF004FD9AA /* PaintView02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView02.h; sourceTree = "<group>"; };
+		E26B41C41D29F8EF004FD9AA /* PaintView02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView02.m; sourceTree = "<group>"; };
+		E26B41C71D29FE46004FD9AA /* PaintStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintStep.h; sourceTree = "<group>"; };
+		E26B41C81D29FE46004FD9AA /* PaintStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintStep.m; sourceTree = "<group>"; };
 		E27B00F01CF2A83C0047FDF1 /* ShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareVC.h; sourceTree = "<group>"; };
 		E27B00F11CF2A83C0047FDF1 /* ShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareVC.m; sourceTree = "<group>"; };
 		E27B00F31CF2A8F30047FDF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -185,6 +198,8 @@
 		E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		E27B01011CF2A94B0047FDF1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E2802FED1D2B921700985091 /* AnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewController.h; sourceTree = "<group>"; };
+		E2802FEE1D2B921700985091 /* AnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewController.m; sourceTree = "<group>"; };
 		E28252B91D0D59D600764C97 /* QLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
 		E28252BA1D0D59D600764C97 /* QLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
 		E2A224C71D0E5F4300A448CA /* THCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCircularProgressView.h; sourceTree = "<group>"; };
@@ -419,8 +434,15 @@
 		E26A24051D06A274005C7711 /* 绘图 */ = {
 			isa = PBXGroup;
 			children = (
+				E26B41C61D29FE1A004FD9AA /* Model */,
 				E26A24061D06A2BB005C7711 /* DrawVC.h */,
 				E26A24071D06A2BB005C7711 /* DrawVC.m */,
+				E22702F61D267146000C266C /* PaintViewController.h */,
+				E22702F71D267146000C266C /* PaintViewController.m */,
+				E22702F91D267189000C266C /* PaintView01.h */,
+				E22702FA1D267189000C266C /* PaintView01.m */,
+				E26B41C31D29F8EF004FD9AA /* PaintView02.h */,
+				E26B41C41D29F8EF004FD9AA /* PaintView02.m */,
 				E2311BF61D22124500464FF4 /* GuaGuaLeViewController.h */,
 				E2311BF71D22124500464FF4 /* GuaGuaLeViewController.m */,
 				E2A224CA1D0E5F6F00A448CA /* CircleProgressViewController.h */,
@@ -430,6 +452,15 @@
 			path = "绘图";
 			sourceTree = "<group>";
 		};
+		E26B41C61D29FE1A004FD9AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E26B41C71D29FE46004FD9AA /* PaintStep.h */,
+				E26B41C81D29FE46004FD9AA /* PaintStep.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E27B00EF1CF2A7D90047FDF1 /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +468,15 @@
 				E27B00F11CF2A83C0047FDF1 /* ShareVC.m */,
 			);
 			path = Share;
+			sourceTree = "<group>";
+		};
+		E2802FEC1D2B915E00985091 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E2802FED1D2B921700985091 /* AnimateViewController.h */,
+				E2802FEE1D2B921700985091 /* AnimateViewController.m */,
+			);
+			path = "动画";
 			sourceTree = "<group>";
 		};
 		E28252B81D0D599600764C97 /* QuickLook */ = {
@@ -522,6 +562,7 @@
 				E20506B31CF6F767008257B1 /* POP */,
 				E2DB0AEA1CFC24080047A4B0 /* ifly */,
 				E22702EF1D2374B5000C266C /* 手势 */,
+				E2802FEC1D2B915E00985091 /* 动画 */,
 				E26A24011D0022FD005C7711 /* 多线程 */,
 				E26A24051D06A274005C7711 /* 绘图 */,
 				E28252B81D0D599600764C97 /* QuickLook */,
@@ -952,6 +993,7 @@
 				E26A24081D06A2BB005C7711 /* DrawVC.m in Sources */,
 				E2A224C91D0E5F4300A448CA /* THCircularProgressView.m in Sources */,
 				E2D2FC6B1CE0690500B29872 /* DemoTableViewController.m in Sources */,
+				E26B41C91D29FE46004FD9AA /* PaintStep.m in Sources */,
 				E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */,
 				E2D2FC131CE05E5F00B29872 /* main.m in Sources */,
 				E2D2FC921CE06A9800B29872 /* MapTypeViewController.m in Sources */,
@@ -962,6 +1004,7 @@
 				E2D2FCA21CE07C6D00B29872 /* UserLocationViewController.m in Sources */,
 				E2D2FC901CE06A9800B29872 /* MainMapViewController.m in Sources */,
 				E2A224CC1D0E5F6F00A448CA /* CircleProgressViewController.m in Sources */,
+				E22702F81D267146000C266C /* PaintViewController.m in Sources */,
 				E2D2FC9C1CE0783700B29872 /* ShareSearchBaseViewController.m in Sources */,
 				E2D2FC931CE06A9800B29872 /* TranfficViewController.m in Sources */,
 				E2D2FC651CE068E200B29872 /* UIView+SDExtension.m in Sources */,
@@ -971,8 +1014,10 @@
 				E26A23EF1CFEB1C5005C7711 /* UIImage+ScreenShot.m in Sources */,
 				E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */,
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
+				E22702FB1D267189000C266C /* PaintView01.m in Sources */,
 				E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */,
 				E2D2FC7A1CE0692800B29872 /* DemoVC3.m in Sources */,
+				E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */,
 				E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */,
 				E2DB0AED1CFC241F0047A4B0 /* IflyViewController.m in Sources */,
 				E2D2FC4C1CE0688E00B29872 /* MasnoryViewController.m in Sources */,
@@ -994,6 +1039,7 @@
 				E2D2FC641CE068E200B29872 /* SDRefreshView.m in Sources */,
 				E2D2FC7E1CE0695500B29872 /* UIView+Masonry_layout.m in Sources */,
 				E26A23E81CFEB1C5005C7711 /* NSString+BXExtension.m in Sources */,
+				E26B41C51D29F8EF004FD9AA /* PaintView02.m in Sources */,
 				E2D2FC5F1CE068E200B29872 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				E26A23E71CFEB1C5005C7711 /* NSDictionary+Extension.m in Sources */,
 				E22702F21D2374C6000C266C /* GesViewController.m in Sources */,
@@ -1152,7 +1198,7 @@
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.1;
+				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1176,7 +1222,7 @@
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.1;
+				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
