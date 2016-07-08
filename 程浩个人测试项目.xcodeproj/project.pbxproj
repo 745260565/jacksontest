@@ -14,6 +14,8 @@
 		E22702F81D267146000C266C /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702F71D267146000C266C /* PaintViewController.m */; };
 		E22702FB1D267189000C266C /* PaintView01.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702FA1D267189000C266C /* PaintView01.m */; };
 		E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2311BF71D22124500464FF4 /* GuaGuaLeViewController.m */; };
+		E24EC9781D2E3164008A9458 /* StareScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EC9771D2E3164008A9458 /* StareScoreViewController.m */; };
+		E24EC97B1D2E32D3008A9458 /* CHScoreStar.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EC97A1D2E32D3008A9458 /* CHScoreStar.m */; };
 		E26A23E51CFEB1C5005C7711 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23C51CFEB1C5005C7711 /* Foundation+Log.m */; };
 		E26A23E61CFEB1C5005C7711 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23C71CFEB1C5005C7711 /* NSDate+Extension.m */; };
 		E26A23E71CFEB1C5005C7711 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A23C91CFEB1C5005C7711 /* NSDictionary+Extension.m */; };
@@ -155,6 +157,10 @@
 		E22702FA1D267189000C266C /* PaintView01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView01.m; sourceTree = "<group>"; };
 		E2311BF61D22124500464FF4 /* GuaGuaLeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuaGuaLeViewController.h; sourceTree = "<group>"; };
 		E2311BF71D22124500464FF4 /* GuaGuaLeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuaGuaLeViewController.m; sourceTree = "<group>"; };
+		E24EC9761D2E3164008A9458 /* StareScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StareScoreViewController.h; sourceTree = "<group>"; };
+		E24EC9771D2E3164008A9458 /* StareScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StareScoreViewController.m; sourceTree = "<group>"; };
+		E24EC9791D2E32D3008A9458 /* CHScoreStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHScoreStar.h; sourceTree = "<group>"; };
+		E24EC97A1D2E32D3008A9458 /* CHScoreStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHScoreStar.m; sourceTree = "<group>"; };
 		E26A23C41CFEB1C5005C7711 /* BXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXExtensions.h; sourceTree = "<group>"; };
 		E26A23C51CFEB1C5005C7711 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		E26A23C61CFEB1C5005C7711 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
@@ -390,6 +396,17 @@
 			path = "手势";
 			sourceTree = "<group>";
 		};
+		E24EC9751D2E3112008A9458 /* 五星评分 */ = {
+			isa = PBXGroup;
+			children = (
+				E24EC9761D2E3164008A9458 /* StareScoreViewController.h */,
+				E24EC9771D2E3164008A9458 /* StareScoreViewController.m */,
+				E24EC9791D2E32D3008A9458 /* CHScoreStar.h */,
+				E24EC97A1D2E32D3008A9458 /* CHScoreStar.m */,
+			);
+			path = "五星评分";
+			sourceTree = "<group>";
+		};
 		E26A23C31CFEB1C5005C7711 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +578,7 @@
 				E27B00EF1CF2A7D90047FDF1 /* Share */,
 				E20506B31CF6F767008257B1 /* POP */,
 				E2DB0AEA1CFC24080047A4B0 /* ifly */,
+				E24EC9751D2E3112008A9458 /* 五星评分 */,
 				E22702EF1D2374B5000C266C /* 手势 */,
 				E2802FEC1D2B915E00985091 /* 动画 */,
 				E26A24011D0022FD005C7711 /* 多线程 */,
@@ -1026,6 +1044,7 @@
 				E26A24041D002331005C7711 /* GCDViewController.m in Sources */,
 				E26A23F21CFEB1C5005C7711 /* UITextControl+FaultTolerance.m in Sources */,
 				E2D2FC911CE06A9800B29872 /* AddGestureViewController.m in Sources */,
+				E24EC9781D2E3164008A9458 /* StareScoreViewController.m in Sources */,
 				E26A23F51CFEB1C5005C7711 /* UIView+Runtime.m in Sources */,
 				E26A23F01CFEB1C5005C7711 /* UILabel+Extension.m in Sources */,
 				E2D2FC9F1CE079BB00B29872 /* LocationShareViewController.m in Sources */,
@@ -1033,6 +1052,7 @@
 				E26A23E51CFEB1C5005C7711 /* Foundation+Log.m in Sources */,
 				E2D2FC461CE0612500B29872 /* MainTableViewController.m in Sources */,
 				E2D2FC961CE0719600B29872 /* OverlayViewController.m in Sources */,
+				E24EC97B1D2E32D3008A9458 /* CHScoreStar.m in Sources */,
 				E2D2FC621CE068E200B29872 /* SDRefreshFooterView.m in Sources */,
 				E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */,
 				E2A224E71D10027400A448CA /* FileManagerViewController.m in Sources */,
