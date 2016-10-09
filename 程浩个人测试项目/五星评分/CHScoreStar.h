@@ -21,4 +21,5 @@
  *  分数，最小为0,最大为星星个数两倍
  */
 @property(nonatomic,assign)CGFloat score;
+
 @end

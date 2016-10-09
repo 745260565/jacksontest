@@ -32,15 +32,15 @@
 }
 
 - (void)buildUI{
-    mainTextField = [UITextView new];
+    mainTextField = [[UITextView alloc] initWithFrame:CGRectMake(10, 80, 200, 40)];
     mainTextField.backgroundColor = UIColorFromRGB(0x9b9b9b);
     [self.view addSubview:mainTextField];
-    [mainTextField mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(10);
-        make.top.mas_equalTo(80);
-        make.width.mas_equalTo(200);
-        make.height.mas_equalTo(40);
-    }];
+    
+    UIButton *clearButton = [[UIButton alloc] initWithFrame:CGRectMake(250, 80, 50, 40)];
+    [clearButton setTitle:@"clear" forState:UIControlStateNormal];
+    [clearButton setTitleColor:BlackColor forState:UIControlStateNormal];
+    [clearButton addTarget:self action:@selector(clearDoc) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:clearButton];
     
     speakButton = [UIButton new];
     [speakButton setImage:[UIImage imageNamed:@"speak"] forState:UIControlStateNormal];
@@ -72,8 +72,12 @@
     iFlySpeechSynthesizer = [IFlySpeechSynthesizer sharedInstance];
     iFlySpeechSynthesizer.delegate = self;
     [iFlySpeechSynthesizer setParameter:[IFlySpeechConstant TYPE_AUTO] forKey:[IFlySpeechConstant ENGINE_TYPE]];
-    [iFlySpeechSynthesizer setParameter:@"50" forKey:[IFlySpeechConstant VOLUME]];
-    [iFlySpeechSynthesizer setParameter:[NSString stringWithFormat:@"%@.pcm",[mainTextField.text substringToIndex:2]] forKey:[IFlySpeechConstant TTS_AUDIO_PATH]];
+    [iFlySpeechSynthesizer setParameter:@"100" forKey:[IFlySpeechConstant VOLUME]];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSLog(@"path:%@",paths[0]);
+    [IFlySetting setLogFilePath:paths[0]];
+//    [iFlySpeechSynthesizer setParameter:[NSString stringWithFormat:@"%@.pcm",[mainTextField.text substringToIndex:2]] forKey:[IFlySpeechConstant TTS_AUDIO_PATH]];
+    [iFlySpeechSynthesizer setParameter:[NSString stringWithFormat:@"%@.pcm",mainTextField.text] forKey:[IFlySpeechConstant TTS_AUDIO_PATH]];
     [iFlySpeechSynthesizer startSpeaking:mainTextField.text];
 }
 
@@ -87,6 +91,12 @@
 
 - (void)speechOver{
     [iFlySpeechRecognizer stopListening];
+}
+
+- (void)clearDoc{
+    NSFileManager *fm = [NSFileManager defaultManager];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    [fm removeItemAtPath:paths[0] error:nil];
 }
 
 /**

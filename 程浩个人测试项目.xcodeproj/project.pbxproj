@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C8457072F4560D211606BF85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7995F6DCB058A4C53738A4 /* libPods.a */; };
+		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
+		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
 		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
 		E22702F21D2374C6000C266C /* GesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702F11D2374C6000C266C /* GesViewController.m */; };
 		E22702F51D23CFF0000C266C /* KMGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E22702F41D23CFF0000C266C /* KMGestureRecognizer.m */; };
@@ -61,6 +63,12 @@
 		E2A224E21D0FFA7400A448CA /* S6.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A224D31D0FF69A00A448CA /* S6.csv */; };
 		E2A224E31D0FFA7A00A448CA /* S7.pdf in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A224D41D0FF69B00A448CA /* S7.pdf */; };
 		E2A224E71D10027400A448CA /* FileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A224E61D10027400A448CA /* FileManagerViewController.m */; };
+		E2B21C8B1D991102004D4234 /* SlideIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B21C8A1D991102004D4234 /* SlideIconViewController.m */; };
+		E2C02BBF1D3370BC006E6B20 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BBE1D3370BC006E6B20 /* LockViewController.m */; };
+		E2C02BC21D3372B8006E6B20 /* Lock1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BC11D3372B8006E6B20 /* Lock1ViewController.m */; };
+		E2C02BC51D3372C3006E6B20 /* Lock2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BC41D3372C3006E6B20 /* Lock2ViewController.m */; };
+		E2C02BC91D337417006E6B20 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BC81D337417006E6B20 /* LockView.m */; };
+		E2C02BCC1D349B1F006E6B20 /* DrawBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BCB1D349B1F006E6B20 /* DrawBackGroundView.m */; };
 		E2D2FC131CE05E5F00B29872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC121CE05E5F00B29872 /* main.m */; };
 		E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC151CE05E5F00B29872 /* AppDelegate.m */; };
 		E2D2FC1C1CE05E5F00B29872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */; };
@@ -145,6 +153,9 @@
 		8239A424D12EB9AEB54EDD4D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B6A8A92BFFB3845BE22A255F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BB7995F6DCB058A4C53738A4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
+		E20265281D587CAD00222164 /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
+		E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丽江小倩 - 一瞬间.mp3"; sourceTree = "<group>"; };
 		E20506B41CF6F7AE008257B1 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
 		E20506B51CF6F7AE008257B1 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 		E22702F01D2374C6000C266C /* GesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesViewController.h; sourceTree = "<group>"; };
@@ -221,6 +232,18 @@
 		E2A224D41D0FF69B00A448CA /* S7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = S7.pdf; sourceTree = "<group>"; };
 		E2A224E51D10027400A448CA /* FileManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerViewController.h; sourceTree = "<group>"; };
 		E2A224E61D10027400A448CA /* FileManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerViewController.m; sourceTree = "<group>"; };
+		E2B21C891D991102004D4234 /* SlideIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideIconViewController.h; sourceTree = "<group>"; };
+		E2B21C8A1D991102004D4234 /* SlideIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideIconViewController.m; sourceTree = "<group>"; };
+		E2C02BBD1D3370BC006E6B20 /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		E2C02BBE1D3370BC006E6B20 /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		E2C02BC01D3372B8006E6B20 /* Lock1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lock1ViewController.h; sourceTree = "<group>"; };
+		E2C02BC11D3372B8006E6B20 /* Lock1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lock1ViewController.m; sourceTree = "<group>"; };
+		E2C02BC31D3372C3006E6B20 /* Lock2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lock2ViewController.h; sourceTree = "<group>"; };
+		E2C02BC41D3372C3006E6B20 /* Lock2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lock2ViewController.m; sourceTree = "<group>"; };
+		E2C02BC71D337417006E6B20 /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		E2C02BC81D337417006E6B20 /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		E2C02BCA1D349B1F006E6B20 /* DrawBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBackGroundView.h; sourceTree = "<group>"; };
+		E2C02BCB1D349B1F006E6B20 /* DrawBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBackGroundView.m; sourceTree = "<group>"; };
 		E2D2FC0E1CE05E5F00B29872 /* 程浩个人测试项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "程浩个人测试项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D2FC121CE05E5F00B29872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2D2FC141CE05E5F00B29872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -374,6 +397,15 @@
 				8239A424D12EB9AEB54EDD4D /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E20265261D5878AA00222164 /* 音乐播放 */ = {
+			isa = PBXGroup;
+			children = (
+				E20265271D587CAD00222164 /* MusicTestViewController.h */,
+				E20265281D587CAD00222164 /* MusicTestViewController.m */,
+			);
+			path = "音乐播放";
 			sourceTree = "<group>";
 		};
 		E20506B31CF6F767008257B1 /* POP */ = {
@@ -538,6 +570,40 @@
 			path = "文件操作";
 			sourceTree = "<group>";
 		};
+		E2B21C881D990E61004D4234 /* 滑动大头像 */ = {
+			isa = PBXGroup;
+			children = (
+				E2B21C891D991102004D4234 /* SlideIconViewController.h */,
+				E2B21C8A1D991102004D4234 /* SlideIconViewController.m */,
+			);
+			path = "滑动大头像";
+			sourceTree = "<group>";
+		};
+		E2C02BBC1D337034006E6B20 /* 滑动解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				E2C02BBD1D3370BC006E6B20 /* LockViewController.h */,
+				E2C02BBE1D3370BC006E6B20 /* LockViewController.m */,
+				E2C02BC01D3372B8006E6B20 /* Lock1ViewController.h */,
+				E2C02BC11D3372B8006E6B20 /* Lock1ViewController.m */,
+				E2C02BC31D3372C3006E6B20 /* Lock2ViewController.h */,
+				E2C02BC41D3372C3006E6B20 /* Lock2ViewController.m */,
+				E2C02BC61D3373D3006E6B20 /* View */,
+			);
+			path = "滑动解锁";
+			sourceTree = "<group>";
+		};
+		E2C02BC61D3373D3006E6B20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C02BC71D337417006E6B20 /* LockView.h */,
+				E2C02BC81D337417006E6B20 /* LockView.m */,
+				E2C02BCA1D349B1F006E6B20 /* DrawBackGroundView.h */,
+				E2C02BCB1D349B1F006E6B20 /* DrawBackGroundView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E2D2FC051CE05E5F00B29872 = {
 			isa = PBXGroup;
 			children = (
@@ -581,11 +647,15 @@
 				E24EC9751D2E3112008A9458 /* 五星评分 */,
 				E22702EF1D2374B5000C266C /* 手势 */,
 				E2802FEC1D2B915E00985091 /* 动画 */,
+				E2C02BBC1D337034006E6B20 /* 滑动解锁 */,
 				E26A24011D0022FD005C7711 /* 多线程 */,
 				E26A24051D06A274005C7711 /* 绘图 */,
 				E28252B81D0D599600764C97 /* QuickLook */,
 				E2A224E41D10025B00A448CA /* 文件操作 */,
+				E20265261D5878AA00222164 /* 音乐播放 */,
+				E2B21C881D990E61004D4234 /* 滑动大头像 */,
 				E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */,
+				E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */,
 				E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */,
 				E2D2FC221CE05E5F00B29872 /* Info.plist */,
 				E2D2FC111CE05E5F00B29872 /* Supporting Files */,
@@ -927,6 +997,7 @@
 				E2A224D91D0FF69B00A448CA /* S5.png in Resources */,
 				E2A224D51D0FF69B00A448CA /* S1.ppt in Resources */,
 				E2D2FC211CE05E5F00B29872 /* LaunchScreen.storyboard in Resources */,
+				E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */,
 				E2D2FC1E1CE05E5F00B29872 /* Assets.xcassets in Resources */,
 				E2A224DA1D0FF69B00A448CA /* S6.csv in Resources */,
 				E2A224D71D0FF69B00A448CA /* S3.doc in Resources */,
@@ -1005,6 +1076,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C02BC91D337417006E6B20 /* LockView.m in Sources */,
 				E26A23F31CFEB1C5005C7711 /* UIView+Extension.m in Sources */,
 				E2D2FC821CE06A5B00B29872 /* ViewController.m in Sources */,
 				E2D2FC781CE0692800B29872 /* DemoVC0.m in Sources */,
@@ -1024,13 +1096,16 @@
 				E2A224CC1D0E5F6F00A448CA /* CircleProgressViewController.m in Sources */,
 				E22702F81D267146000C266C /* PaintViewController.m in Sources */,
 				E2D2FC9C1CE0783700B29872 /* ShareSearchBaseViewController.m in Sources */,
+				E2C02BBF1D3370BC006E6B20 /* LockViewController.m in Sources */,
 				E2D2FC931CE06A9800B29872 /* TranfficViewController.m in Sources */,
 				E2D2FC651CE068E200B29872 /* UIView+SDExtension.m in Sources */,
 				E26A23EE1CFEB1C5005C7711 /* UIImage+Extension.m in Sources */,
 				E2D2FC601CE068E200B29872 /* UIView+SDAutoLayout.m in Sources */,
 				E26A23EB1CFEB1C5005C7711 /* UIButton+Extension.m in Sources */,
 				E26A23EF1CFEB1C5005C7711 /* UIImage+ScreenShot.m in Sources */,
+				E2C02BC51D3372C3006E6B20 /* Lock2ViewController.m in Sources */,
 				E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */,
+				E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */,
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
 				E22702FB1D267189000C266C /* PaintView01.m in Sources */,
 				E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */,
@@ -1047,6 +1122,7 @@
 				E24EC9781D2E3164008A9458 /* StareScoreViewController.m in Sources */,
 				E26A23F51CFEB1C5005C7711 /* UIView+Runtime.m in Sources */,
 				E26A23F01CFEB1C5005C7711 /* UILabel+Extension.m in Sources */,
+				E2C02BC21D3372B8006E6B20 /* Lock1ViewController.m in Sources */,
 				E2D2FC9F1CE079BB00B29872 /* LocationShareViewController.m in Sources */,
 				E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */,
 				E26A23E51CFEB1C5005C7711 /* Foundation+Log.m in Sources */,
@@ -1057,9 +1133,11 @@
 				E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */,
 				E2A224E71D10027400A448CA /* FileManagerViewController.m in Sources */,
 				E2D2FC641CE068E200B29872 /* SDRefreshView.m in Sources */,
+				E2C02BCC1D349B1F006E6B20 /* DrawBackGroundView.m in Sources */,
 				E2D2FC7E1CE0695500B29872 /* UIView+Masonry_layout.m in Sources */,
 				E26A23E81CFEB1C5005C7711 /* NSString+BXExtension.m in Sources */,
 				E26B41C51D29F8EF004FD9AA /* PaintView02.m in Sources */,
+				E2B21C8B1D991102004D4234 /* SlideIconViewController.m in Sources */,
 				E2D2FC5F1CE068E200B29872 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				E26A23E71CFEB1C5005C7711 /* NSDictionary+Extension.m in Sources */,
 				E22702F21D2374C6000C266C /* GesViewController.m in Sources */,
@@ -1216,7 +1294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/ch/Desktop/程浩个人测试项目/程浩个人测试项目/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1240,7 +1318,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/ch/Desktop/程浩个人测试项目/程浩个人测试项目/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
