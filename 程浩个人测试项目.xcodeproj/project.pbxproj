@@ -1292,7 +1292,7 @@
 					"$(PROJECT_DIR)/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/ch/Desktop/程浩个人测试项目/程浩个人测试项目/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1316,7 +1316,7 @@
 					"$(PROJECT_DIR)/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/ch/Desktop/程浩个人测试项目/程浩个人测试项目/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
