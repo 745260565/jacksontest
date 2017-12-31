@@ -3,7 +3,7 @@
 //  AMapNaviKit
 //
 //  Created by AutoNavi on 14-7-4.
-//  Copyright (c) 2014年 AutoNavi. All rights reserved.
+//  Copyright (c) 2014年 Amap. All rights reserved.
 //
 
 #import <AMapNaviKit/AMapNaviVersion.h>
@@ -19,7 +19,15 @@
 #import <AMapNaviKit/AMapNaviDriveDataRepresentable.h>
 #import <AMapNaviKit/AMapNaviWalkManager.h>
 #import <AMapNaviKit/AMapNaviWalkDataRepresentable.h>
+#import <AMapNaviKit/AMapNaviRideManager.h>
+#import <AMapNaviKit/AMapNaviRideDataRepresentable.h>
 
 #import <AMapNaviKit/AMapNaviDriveView.h>
 #import <AMapNaviKit/AMapNaviWalkView.h>
+#import <AMapNaviKit/AMapNaviRideView.h>
 #import <AMapNaviKit/AMapNaviHUDView.h>
+#import <AMapNaviKit/AMapNaviRoutePolylineOption.h>
+#import <AMapNaviKit/AMapNaviTrafficBarView.h>
+
+#import <AMapNaviKit/AMapNaviCompositeManager.h>
+#import <AMapNaviKit/AMapNaviCompositeUserConfig.h>
