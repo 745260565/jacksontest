@@ -2,7 +2,7 @@
 platform :ios, '8.0' #手机的系统
 
 target '程浩个人测试项目' do
-
+use_frameworks!
 pod 'Masonry'
 #pod 'AMap3DMap' #3D地图SDK
 #pod 'AMap2DMap' #2D地图SDK(2D地图和3D地图不能同时使用)
