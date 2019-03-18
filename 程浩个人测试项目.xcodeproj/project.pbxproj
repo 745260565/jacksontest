@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A90CCC4223BA65900CF01C4 /* JXCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90CCC3223BA65900CF01C4 /* JXCategoryView.framework */; };
 		878F32DBA2F27EB904583EA9 /* Pods_________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34312B797ACD414C857A57EC /* Pods_________.framework */; };
 		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
 		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
@@ -93,15 +94,6 @@
 		E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC771CE0692800B29872 /* TestCell2.m */; };
 		E2D2FC7E1CE0695500B29872 /* UIView+Masonry_layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC7D1CE0695500B29872 /* UIView+Masonry_layout.m */; };
 		E2D2FC821CE06A5B00B29872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC811CE06A5B00B29872 /* ViewController.m */; };
-		E2D2FC8F1CE06A9800B29872 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC841CE06A9800B29872 /* BaseMapViewController.m */; };
-		E2D2FC901CE06A9800B29872 /* MainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC861CE06A9800B29872 /* MainMapViewController.m */; };
-		E2D2FC911CE06A9800B29872 /* AddGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC8A1CE06A9800B29872 /* AddGestureViewController.m */; };
-		E2D2FC921CE06A9800B29872 /* MapTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC8C1CE06A9800B29872 /* MapTypeViewController.m */; };
-		E2D2FC931CE06A9800B29872 /* TranfficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC8E1CE06A9800B29872 /* TranfficViewController.m */; };
-		E2D2FC961CE0719600B29872 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC951CE0719600B29872 /* OverlayViewController.m */; };
-		E2D2FC9C1CE0783700B29872 /* ShareSearchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC9B1CE0783700B29872 /* ShareSearchBaseViewController.m */; };
-		E2D2FC9F1CE079BB00B29872 /* LocationShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC9E1CE079BB00B29872 /* LocationShareViewController.m */; };
-		E2D2FCA21CE07C6D00B29872 /* UserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FCA11CE07C6D00B29872 /* UserLocationViewController.m */; };
 		E2DB0ADB1CFC20430047A4B0 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0ADA1CFC20430047A4B0 /* iflyMSC.framework */; };
 		E2DB0ADD1CFC20A40047A4B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0ADC1CFC20A40047A4B0 /* AVFoundation.framework */; };
 		E2DB0ADF1CFC20BD0047A4B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB0ADE1CFC20BD0047A4B0 /* Foundation.framework */; };
@@ -150,7 +142,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		34312B797ACD414C857A57EC /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34312B797ACD414C857A57EC /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A90CCC3223BA65900CF01C4 /* JXCategoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JXCategoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53B8390CAFBB056EC524E63 /* Pods-程浩个人测试项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.debug.xcconfig"; sourceTree = "<group>"; };
 		D6DF44E4EEAFBB2ACBDAA991 /* Pods-程浩个人测试项目.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.release.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.release.xcconfig"; sourceTree = "<group>"; };
 		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
@@ -253,10 +246,10 @@
 		E2D2FC201CE05E5F00B29872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D2FC221CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC271CE05E5F00B29872 /* 程浩个人测试项目Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "程浩个人测试项目Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ________Tests.m; sourceTree = "<group>"; };
+		E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
 		E2D2FC2D1CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC321CE05E5F00B29872 /* 程浩个人测试项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "程浩个人测试项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2FC361CE05E5F00B29872 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ________UITests.m; sourceTree = "<group>"; };
+		E2D2FC361CE05E5F00B29872 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		E2D2FC381CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC441CE0612500B29872 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		E2D2FC451CE0612500B29872 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
@@ -294,24 +287,6 @@
 		E2D2FC7F1CE0699800B29872 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E2D2FC801CE06A5B00B29872 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E2D2FC811CE06A5B00B29872 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E2D2FC831CE06A9800B29872 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
-		E2D2FC841CE06A9800B29872 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
-		E2D2FC851CE06A9800B29872 /* MainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapViewController.h; sourceTree = "<group>"; };
-		E2D2FC861CE06A9800B29872 /* MainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapViewController.m; sourceTree = "<group>"; };
-		E2D2FC891CE06A9800B29872 /* AddGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGestureViewController.h; sourceTree = "<group>"; };
-		E2D2FC8A1CE06A9800B29872 /* AddGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGestureViewController.m; sourceTree = "<group>"; };
-		E2D2FC8B1CE06A9800B29872 /* MapTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTypeViewController.h; sourceTree = "<group>"; };
-		E2D2FC8C1CE06A9800B29872 /* MapTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTypeViewController.m; sourceTree = "<group>"; };
-		E2D2FC8D1CE06A9800B29872 /* TranfficViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranfficViewController.h; sourceTree = "<group>"; };
-		E2D2FC8E1CE06A9800B29872 /* TranfficViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranfficViewController.m; sourceTree = "<group>"; };
-		E2D2FC941CE0719600B29872 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
-		E2D2FC951CE0719600B29872 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
-		E2D2FC9A1CE0783700B29872 /* ShareSearchBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSearchBaseViewController.h; sourceTree = "<group>"; };
-		E2D2FC9B1CE0783700B29872 /* ShareSearchBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSearchBaseViewController.m; sourceTree = "<group>"; };
-		E2D2FC9D1CE079BB00B29872 /* LocationShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareViewController.h; sourceTree = "<group>"; };
-		E2D2FC9E1CE079BB00B29872 /* LocationShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareViewController.m; sourceTree = "<group>"; };
-		E2D2FCA01CE07C6D00B29872 /* UserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationViewController.h; sourceTree = "<group>"; };
-		E2D2FCA11CE07C6D00B29872 /* UserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationViewController.m; sourceTree = "<group>"; };
 		E2D2FCA31CE0842D00B29872 /* 程浩个人测试项目.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "程浩个人测试项目.entitlements"; sourceTree = "<group>"; };
 		E2DB0ADA1CFC20430047A4B0 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		E2DB0ADC1CFC20A40047A4B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -330,6 +305,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A90CCC4223BA65900CF01C4 /* JXCategoryView.framework in Frameworks */,
 				E2DB0AE91CFC20FE0047A4B0 /* QuartzCore.framework in Frameworks */,
 				E2DB0AE71CFC20F20047A4B0 /* AddressBook.framework in Frameworks */,
 				E2DB0AE51CFC20E70047A4B0 /* CoreLocation.framework in Frameworks */,
@@ -370,6 +346,7 @@
 		30A05B71A0E953D42A8DAD98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A90CCC3223BA65900CF01C4 /* JXCategoryView.framework */,
 				E2DB0AE81CFC20FE0047A4B0 /* QuartzCore.framework */,
 				E2DB0AE61CFC20F20047A4B0 /* AddressBook.framework */,
 				E2DB0AE41CFC20E70047A4B0 /* CoreLocation.framework */,
@@ -638,7 +615,6 @@
 				E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */,
 				E2D2FC441CE0612500B29872 /* MainTableViewController.h */,
 				E2D2FC451CE0612500B29872 /* MainTableViewController.m */,
-				E2D2FC471CE0660200B29872 /* MAMap */,
 				E2D2FC481CE0661D00B29872 /* Masonry */,
 				E2D2FC491CE0663800B29872 /* SDAutoLayout */,
 				E27B00EF1CF2A7D90047FDF1 /* Share */,
@@ -689,18 +665,6 @@
 				E2D2FC381CE05E5F00B29872 /* Info.plist */,
 			);
 			path = "程浩个人测试项目UITests";
-			sourceTree = "<group>";
-		};
-		E2D2FC471CE0660200B29872 /* MAMap */ = {
-			isa = PBXGroup;
-			children = (
-				E2D2FC831CE06A9800B29872 /* BaseMapViewController.h */,
-				E2D2FC841CE06A9800B29872 /* BaseMapViewController.m */,
-				E2D2FC851CE06A9800B29872 /* MainMapViewController.h */,
-				E2D2FC861CE06A9800B29872 /* MainMapViewController.m */,
-				E2D2FC871CE06A9800B29872 /* MapController */,
-			);
-			path = MAMap;
 			sourceTree = "<group>";
 		};
 		E2D2FC481CE0661D00B29872 /* Masonry */ = {
@@ -802,59 +766,6 @@
 				E2D2FC771CE0692800B29872 /* TestCell2.m */,
 			);
 			path = DemoVC3;
-			sourceTree = "<group>";
-		};
-		E2D2FC871CE06A9800B29872 /* MapController */ = {
-			isa = PBXGroup;
-			children = (
-				E2D2FC881CE06A9800B29872 /* MapBaseContollers */,
-				E2D2FC971CE0774C00B29872 /* SearchBaseControllers */,
-			);
-			path = MapController;
-			sourceTree = "<group>";
-		};
-		E2D2FC881CE06A9800B29872 /* MapBaseContollers */ = {
-			isa = PBXGroup;
-			children = (
-				E2D2FC891CE06A9800B29872 /* AddGestureViewController.h */,
-				E2D2FC8A1CE06A9800B29872 /* AddGestureViewController.m */,
-				E2D2FC8B1CE06A9800B29872 /* MapTypeViewController.h */,
-				E2D2FC8C1CE06A9800B29872 /* MapTypeViewController.m */,
-				E2D2FC8D1CE06A9800B29872 /* TranfficViewController.h */,
-				E2D2FC8E1CE06A9800B29872 /* TranfficViewController.m */,
-				E2D2FC941CE0719600B29872 /* OverlayViewController.h */,
-				E2D2FC951CE0719600B29872 /* OverlayViewController.m */,
-				E2D2FCA01CE07C6D00B29872 /* UserLocationViewController.h */,
-				E2D2FCA11CE07C6D00B29872 /* UserLocationViewController.m */,
-			);
-			path = MapBaseContollers;
-			sourceTree = "<group>";
-		};
-		E2D2FC971CE0774C00B29872 /* SearchBaseControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E2D2FC981CE0776400B29872 /* CloudSearch */,
-				E2D2FC991CE0777800B29872 /* ShareSearch */,
-			);
-			path = SearchBaseControllers;
-			sourceTree = "<group>";
-		};
-		E2D2FC981CE0776400B29872 /* CloudSearch */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CloudSearch;
-			sourceTree = "<group>";
-		};
-		E2D2FC991CE0777800B29872 /* ShareSearch */ = {
-			isa = PBXGroup;
-			children = (
-				E2D2FC9A1CE0783700B29872 /* ShareSearchBaseViewController.h */,
-				E2D2FC9B1CE0783700B29872 /* ShareSearchBaseViewController.m */,
-				E2D2FC9D1CE079BB00B29872 /* LocationShareViewController.h */,
-				E2D2FC9E1CE079BB00B29872 /* LocationShareViewController.m */,
-			);
-			path = ShareSearch;
 			sourceTree = "<group>";
 		};
 		E2DB0AD71CFC1C210047A4B0 /* lib */ = {
@@ -1030,8 +941,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JXCategoryView/JXCategoryView.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
@@ -1042,6 +954,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXCategoryView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
@@ -1051,7 +964,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2341584A2D0F63EDC8BBADBF /* [CP] Copy Pods Resources */ = {
@@ -1060,9 +973,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-resources.sh",
-				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
-				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-resources.sh",
 				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle",
 				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
 				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
@@ -1079,11 +990,23 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResourcesNew.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentDetailController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSLoginViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSnsAccountViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSShareListController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2844051F57124DCB136EC7A7 /* [CP] Check Pods Manifest.lock */ = {
@@ -1121,18 +1044,12 @@
 				E26B41C91D29FE46004FD9AA /* PaintStep.m in Sources */,
 				E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */,
 				E2D2FC131CE05E5F00B29872 /* main.m in Sources */,
-				E2D2FC921CE06A9800B29872 /* MapTypeViewController.m in Sources */,
 				E2D2FC631CE068E200B29872 /* SDRefreshHeaderView.m in Sources */,
 				E26A23F11CFEB1C5005C7711 /* UIScreen+Extension.m in Sources */,
 				E2D2FC6A1CE0690500B29872 /* DemoCell.m in Sources */,
-				E2D2FC8F1CE06A9800B29872 /* BaseMapViewController.m in Sources */,
-				E2D2FCA21CE07C6D00B29872 /* UserLocationViewController.m in Sources */,
-				E2D2FC901CE06A9800B29872 /* MainMapViewController.m in Sources */,
 				E2A224CC1D0E5F6F00A448CA /* CircleProgressViewController.m in Sources */,
 				E22702F81D267146000C266C /* PaintViewController.m in Sources */,
-				E2D2FC9C1CE0783700B29872 /* ShareSearchBaseViewController.m in Sources */,
 				E2C02BBF1D3370BC006E6B20 /* LockViewController.m in Sources */,
-				E2D2FC931CE06A9800B29872 /* TranfficViewController.m in Sources */,
 				E2D2FC651CE068E200B29872 /* UIView+SDExtension.m in Sources */,
 				E26A23EE1CFEB1C5005C7711 /* UIImage+Extension.m in Sources */,
 				E2D2FC601CE068E200B29872 /* UIView+SDAutoLayout.m in Sources */,
@@ -1153,16 +1070,13 @@
 				E2D2FC791CE0692800B29872 /* DemoVC1.m in Sources */,
 				E26A24041D002331005C7711 /* GCDViewController.m in Sources */,
 				E26A23F21CFEB1C5005C7711 /* UITextControl+FaultTolerance.m in Sources */,
-				E2D2FC911CE06A9800B29872 /* AddGestureViewController.m in Sources */,
 				E24EC9781D2E3164008A9458 /* StareScoreViewController.m in Sources */,
 				E26A23F51CFEB1C5005C7711 /* UIView+Runtime.m in Sources */,
 				E26A23F01CFEB1C5005C7711 /* UILabel+Extension.m in Sources */,
 				E2C02BC21D3372B8006E6B20 /* Lock1ViewController.m in Sources */,
-				E2D2FC9F1CE079BB00B29872 /* LocationShareViewController.m in Sources */,
 				E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */,
 				E26A23E51CFEB1C5005C7711 /* Foundation+Log.m in Sources */,
 				E2D2FC461CE0612500B29872 /* MainTableViewController.m in Sources */,
-				E2D2FC961CE0719600B29872 /* OverlayViewController.m in Sources */,
 				E24EC97B1D2E32D3008A9458 /* CHScoreStar.m in Sources */,
 				E2D2FC621CE068E200B29872 /* SDRefreshFooterView.m in Sources */,
 				E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */,
@@ -1331,9 +1245,10 @@
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.2;
+				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.cheng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1355,9 +1270,10 @@
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.2;
+				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.cheng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
