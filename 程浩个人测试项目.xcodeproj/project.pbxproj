@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A90CCC4223BA65900CF01C4 /* JXCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90CCC3223BA65900CF01C4 /* JXCategoryView.framework */; };
-		878F32DBA2F27EB904583EA9 /* Pods_________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34312B797ACD414C857A57EC /* Pods_________.framework */; };
 		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
 		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
 		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
@@ -43,7 +41,6 @@
 		E27B00FA1CF2A9200047FDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00F91CF2A9200047FDF1 /* CoreGraphics.framework */; };
 		E27B00FC1CF2A92E0047FDF1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FB1CF2A92E0047FDF1 /* libsqlite3.tbd */; };
 		E27B00FE1CF2A9380047FDF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */; };
-		E27B01001CF2A9420047FDF1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */; };
 		E27B01021CF2A94B0047FDF1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E27B01011CF2A94B0047FDF1 /* libz.tbd */; };
 		E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2802FEE1D2B921700985091 /* AnimateViewController.m */; };
 		E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28252BA1D0D59D600764C97 /* QLViewController.m */; };
@@ -142,10 +139,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		34312B797ACD414C857A57EC /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A90CCC3223BA65900CF01C4 /* JXCategoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JXCategoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C53B8390CAFBB056EC524E63 /* Pods-程浩个人测试项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.debug.xcconfig"; sourceTree = "<group>"; };
-		D6DF44E4EEAFBB2ACBDAA991 /* Pods-程浩个人测试项目.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.release.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.release.xcconfig"; sourceTree = "<group>"; };
+		3C70C4C92C1529F10125BCCC /* Pods-程浩个人测试项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.debug.xcconfig"; sourceTree = "<group>"; };
 		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
 		E20265281D587CAD00222164 /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
 		E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丽江小倩 - 一瞬间.mp3"; sourceTree = "<group>"; };
@@ -206,7 +200,6 @@
 		E27B00F91CF2A9200047FDF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E27B00FB1CF2A92E0047FDF1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		E27B01011CF2A94B0047FDF1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E2802FED1D2B921700985091 /* AnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewController.h; sourceTree = "<group>"; };
 		E2802FEE1D2B921700985091 /* AnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewController.m; sourceTree = "<group>"; };
@@ -298,6 +291,7 @@
 		E2DB0AE81CFC20FE0047A4B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E2DB0AEB1CFC241F0047A4B0 /* IflyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IflyViewController.h; sourceTree = "<group>"; };
 		E2DB0AEC1CFC241F0047A4B0 /* IflyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IflyViewController.m; sourceTree = "<group>"; };
+		EA8BF4EE60B3E0B177A06E58 /* Pods-程浩个人测试项目.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.release.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,7 +299,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A90CCC4223BA65900CF01C4 /* JXCategoryView.framework in Frameworks */,
 				E2DB0AE91CFC20FE0047A4B0 /* QuartzCore.framework in Frameworks */,
 				E2DB0AE71CFC20F20047A4B0 /* AddressBook.framework in Frameworks */,
 				E2DB0AE51CFC20E70047A4B0 /* CoreLocation.framework in Frameworks */,
@@ -315,14 +308,12 @@
 				E2DB0ADD1CFC20A40047A4B0 /* AVFoundation.framework in Frameworks */,
 				E2DB0ADB1CFC20430047A4B0 /* iflyMSC.framework in Frameworks */,
 				E27B01021CF2A94B0047FDF1 /* libz.tbd in Frameworks */,
-				E27B01001CF2A9420047FDF1 /* libstdc++.tbd in Frameworks */,
 				E27B00FE1CF2A9380047FDF1 /* CoreTelephony.framework in Frameworks */,
 				E27B00FC1CF2A92E0047FDF1 /* libsqlite3.tbd in Frameworks */,
 				E27B00FA1CF2A9200047FDF1 /* CoreGraphics.framework in Frameworks */,
 				E27B00F81CF2A9130047FDF1 /* SystemConfiguration.framework in Frameworks */,
 				E27B00F61CF2A9080047FDF1 /* libiconv.2.4.0.tbd in Frameworks */,
 				E27B00F41CF2A8F30047FDF1 /* Security.framework in Frameworks */,
-				878F32DBA2F27EB904583EA9 /* Pods_________.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +337,6 @@
 		30A05B71A0E953D42A8DAD98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A90CCC3223BA65900CF01C4 /* JXCategoryView.framework */,
 				E2DB0AE81CFC20FE0047A4B0 /* QuartzCore.framework */,
 				E2DB0AE61CFC20F20047A4B0 /* AddressBook.framework */,
 				E2DB0AE41CFC20E70047A4B0 /* CoreLocation.framework */,
@@ -355,14 +345,12 @@
 				E2DB0ADE1CFC20BD0047A4B0 /* Foundation.framework */,
 				E2DB0ADC1CFC20A40047A4B0 /* AVFoundation.framework */,
 				E27B01011CF2A94B0047FDF1 /* libz.tbd */,
-				E27B00FF1CF2A9420047FDF1 /* libstdc++.tbd */,
 				E27B00FD1CF2A9380047FDF1 /* CoreTelephony.framework */,
 				E27B00FB1CF2A92E0047FDF1 /* libsqlite3.tbd */,
 				E27B00F91CF2A9200047FDF1 /* CoreGraphics.framework */,
 				E27B00F71CF2A9130047FDF1 /* SystemConfiguration.framework */,
 				E27B00F51CF2A9080047FDF1 /* libiconv.2.4.0.tbd */,
 				E27B00F31CF2A8F30047FDF1 /* Security.framework */,
-				34312B797ACD414C857A57EC /* Pods_________.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -370,8 +358,8 @@
 		A2511DB9CDA53BCC23CF96BC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C53B8390CAFBB056EC524E63 /* Pods-程浩个人测试项目.debug.xcconfig */,
-				D6DF44E4EEAFBB2ACBDAA991 /* Pods-程浩个人测试项目.release.xcconfig */,
+				3C70C4C92C1529F10125BCCC /* Pods-程浩个人测试项目.debug.xcconfig */,
+				EA8BF4EE60B3E0B177A06E58 /* Pods-程浩个人测试项目.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -857,6 +845,7 @@
 					E2D2FC0D1CE05E5F00B29872 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 4FJAGRL7Z5;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1229,12 +1218,14 @@
 		};
 		E2D2FC3C1CE05E5F00B29872 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C53B8390CAFBB056EC524E63 /* Pods-程浩个人测试项目.debug.xcconfig */;
+			baseConfigurationReference = 3C70C4C92C1529F10125BCCC /* Pods-程浩个人测试项目.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FJAGRL7Z5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1245,21 +1236,24 @@
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.cheng;
+				PRODUCT_BUNDLE_IDENTIFIER = xkw.jacksonTest.chenghao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E2D2FC3D1CE05E5F00B29872 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6DF44E4EEAFBB2ACBDAA991 /* Pods-程浩个人测试项目.release.xcconfig */;
+			baseConfigurationReference = EA8BF4EE60B3E0B177A06E58 /* Pods-程浩个人测试项目.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FJAGRL7Z5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1270,9 +1264,10 @@
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = carbit.jacksonTest.cheng;
+				PRODUCT_BUNDLE_IDENTIFIER = xkw.jacksonTest.chenghao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -49,6 +49,9 @@
 #import "JXCategoryTitleImageCell.h"
 #import "JXCategoryTitleImageCellModel.h"
 #import "JXCategoryTitleImageView.h"
+#import "JXCategoryTitleVerticalZoomCell.h"
+#import "JXCategoryTitleVerticalZoomCellModel.h"
+#import "JXCategoryTitleVerticalZoomView.h"
 
 FOUNDATION_EXPORT double JXCategoryViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char JXCategoryViewVersionString[];

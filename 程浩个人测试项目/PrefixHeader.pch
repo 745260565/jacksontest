@@ -20,7 +20,7 @@
 #import "Constant.h"
 #import "Masonry.h"
 #import "UIView+SDAutoLayout.h"
-#import "pop.h"
+#import "POP.h"
 #import <iflyMSC/iflyMSC.h>
 #import "ReactiveCocoa.h"
 
