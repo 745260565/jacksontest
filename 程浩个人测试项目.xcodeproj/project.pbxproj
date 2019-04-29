@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A697F98224E0B59008F2950 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A697F97224E0B59008F2950 /* ImageViewController.m */; };
 		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
 		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
 		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
@@ -61,7 +62,6 @@
 		E2A224E21D0FFA7400A448CA /* S6.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A224D31D0FF69A00A448CA /* S6.csv */; };
 		E2A224E31D0FFA7A00A448CA /* S7.pdf in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A224D41D0FF69B00A448CA /* S7.pdf */; };
 		E2A224E71D10027400A448CA /* FileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A224E61D10027400A448CA /* FileManagerViewController.m */; };
-		E2B21C8B1D991102004D4234 /* SlideIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B21C8A1D991102004D4234 /* SlideIconViewController.m */; };
 		E2C02BBF1D3370BC006E6B20 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BBE1D3370BC006E6B20 /* LockViewController.m */; };
 		E2C02BC21D3372B8006E6B20 /* Lock1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BC11D3372B8006E6B20 /* Lock1ViewController.m */; };
 		E2C02BC51D3372C3006E6B20 /* Lock2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BC41D3372C3006E6B20 /* Lock2ViewController.m */; };
@@ -140,6 +140,8 @@
 
 /* Begin PBXFileReference section */
 		3C70C4C92C1529F10125BCCC /* Pods-程浩个人测试项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.debug.xcconfig"; sourceTree = "<group>"; };
+		6A697F96224E0B59008F2950 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		6A697F97224E0B59008F2950 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
 		E20265281D587CAD00222164 /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
 		E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丽江小倩 - 一瞬间.mp3"; sourceTree = "<group>"; };
@@ -218,8 +220,6 @@
 		E2A224D41D0FF69B00A448CA /* S7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = S7.pdf; sourceTree = "<group>"; };
 		E2A224E51D10027400A448CA /* FileManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerViewController.h; sourceTree = "<group>"; };
 		E2A224E61D10027400A448CA /* FileManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerViewController.m; sourceTree = "<group>"; };
-		E2B21C891D991102004D4234 /* SlideIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideIconViewController.h; sourceTree = "<group>"; };
-		E2B21C8A1D991102004D4234 /* SlideIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideIconViewController.m; sourceTree = "<group>"; };
 		E2C02BBD1D3370BC006E6B20 /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
 		E2C02BBE1D3370BC006E6B20 /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
 		E2C02BC01D3372B8006E6B20 /* Lock1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lock1ViewController.h; sourceTree = "<group>"; };
@@ -353,6 +353,15 @@
 				E27B00F31CF2A8F30047FDF1 /* Security.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A697F95224E0AA5008F2950 /* 拍照和选择图片 */ = {
+			isa = PBXGroup;
+			children = (
+				6A697F96224E0B59008F2950 /* ImageViewController.h */,
+				6A697F97224E0B59008F2950 /* ImageViewController.m */,
+			);
+			path = "拍照和选择图片";
 			sourceTree = "<group>";
 		};
 		A2511DB9CDA53BCC23CF96BC /* Pods */ = {
@@ -535,15 +544,6 @@
 			path = "文件操作";
 			sourceTree = "<group>";
 		};
-		E2B21C881D990E61004D4234 /* 滑动大头像 */ = {
-			isa = PBXGroup;
-			children = (
-				E2B21C891D991102004D4234 /* SlideIconViewController.h */,
-				E2B21C8A1D991102004D4234 /* SlideIconViewController.m */,
-			);
-			path = "滑动大头像";
-			sourceTree = "<group>";
-		};
 		E2C02BBC1D337034006E6B20 /* 滑动解锁 */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,7 +617,7 @@
 				E28252B81D0D599600764C97 /* QuickLook */,
 				E2A224E41D10025B00A448CA /* 文件操作 */,
 				E20265261D5878AA00222164 /* 音乐播放 */,
-				E2B21C881D990E61004D4234 /* 滑动大头像 */,
+				6A697F95224E0AA5008F2950 /* 拍照和选择图片 */,
 				E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */,
 				E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */,
 				E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */,
@@ -1050,6 +1050,7 @@
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
 				E22702FB1D267189000C266C /* PaintView01.m in Sources */,
 				E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */,
+				6A697F98224E0B59008F2950 /* ImageViewController.m in Sources */,
 				E2D2FC7A1CE0692800B29872 /* DemoVC3.m in Sources */,
 				E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */,
 				E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */,
@@ -1075,7 +1076,6 @@
 				E2D2FC7E1CE0695500B29872 /* UIView+Masonry_layout.m in Sources */,
 				E26A23E81CFEB1C5005C7711 /* NSString+BXExtension.m in Sources */,
 				E26B41C51D29F8EF004FD9AA /* PaintView02.m in Sources */,
-				E2B21C8B1D991102004D4234 /* SlideIconViewController.m in Sources */,
 				E2D2FC5F1CE068E200B29872 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				E26A23E71CFEB1C5005C7711 /* NSDictionary+Extension.m in Sources */,
 				E22702F21D2374C6000C266C /* GesViewController.m in Sources */,
