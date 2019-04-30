@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 //#import <AMapNaviKit/MAMapKit.h>
-#import "UMSocial.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [MAMapServices sharedServices].apiKey = AMAPAppKey;
-    [UMSocialData setAppKey:UMShareKey];
     
     // 讯飞初始化
     NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",IFLYAppKey];

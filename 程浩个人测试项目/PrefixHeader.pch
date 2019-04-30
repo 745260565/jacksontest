@@ -22,7 +22,6 @@
 #import "UIView+SDAutoLayout.h"
 #import "POP.h"
 #import <iflyMSC/iflyMSC.h>
-#import "ReactiveCocoa.h"
 
 #ifdef DEBUG
 #define NSLog(...) NSLog(__VA_ARGS__)
