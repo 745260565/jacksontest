@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - IQKeyboardManager (6.3.0)
   - JXCategoryView (1.3.3)
   - Masonry (1.1.0)
   - pop (1.0.12)
@@ -279,7 +278,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
-  - IQKeyboardManager
   - JXCategoryView
   - Masonry
   - pop (~> 1.0.9)
@@ -289,7 +287,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - IQKeyboardManager
     - JXCategoryView
     - Masonry
     - pop
@@ -298,13 +295,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
   JXCategoryView: 25e379fa1e8f5577f878e2446207bb869ec97228
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   QMUIKit: 5b8f0a3ab60e42af1310bd40a6fe1b54d612d15c
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
 
-PODFILE CHECKSUM: fb71638c7a9e2d41fb0d7c2d6db78c7e623d561f
+PODFILE CHECKSUM: 86ae97e6d21196d7959c193fd91583da187f1346
 
 COCOAPODS: 1.6.0
