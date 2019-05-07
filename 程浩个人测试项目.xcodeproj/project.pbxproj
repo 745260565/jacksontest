@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5702CF6CB18A8BB0D0F37880 /* Pods_________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8724B292487D8C7AABE22429 /* Pods_________.framework */; };
+		6A1A23B4227FCB38007D8CA2 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23B3227FCB38007D8CA2 /* MainTabBarViewController.m */; };
+		6A1A23B8227FD211007D8CA2 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */; };
+		6A1A23BC22801CD8007D8CA2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */; };
 		6A697F98224E0B59008F2950 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A697F97224E0B59008F2950 /* ImageViewController.m */; };
 		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
 		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
@@ -70,7 +72,6 @@
 		E2C02BCC1D349B1F006E6B20 /* DrawBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C02BCB1D349B1F006E6B20 /* DrawBackGroundView.m */; };
 		E2D2FC131CE05E5F00B29872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC121CE05E5F00B29872 /* main.m */; };
 		E2D2FC161CE05E5F00B29872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC151CE05E5F00B29872 /* AppDelegate.m */; };
-		E2D2FC1C1CE05E5F00B29872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */; };
 		E2D2FC1E1CE05E5F00B29872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */; };
 		E2D2FC211CE05E5F00B29872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */; };
 		E2D2FC2C1CE05E5F00B29872 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */; };
@@ -141,9 +142,15 @@
 
 /* Begin PBXFileReference section */
 		3C70C4C92C1529F10125BCCC /* Pods-程浩个人测试项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.debug.xcconfig"; sourceTree = "<group>"; };
+		6A1A23B2227FCB38007D8CA2 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		6A1A23B3227FCB38007D8CA2 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		6A1A23B6227FD211007D8CA2 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		6A1A23BA22801CD8007D8CA2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6A697F96224E0B59008F2950 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		6A697F97224E0B59008F2950 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
-		8724B292487D8C7AABE22429 /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8724B292487D8C7AABE22429 /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
 		E20265281D587CAD00222164 /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
 		E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丽江小倩 - 一瞬间.mp3"; sourceTree = "<group>"; };
@@ -236,15 +243,14 @@
 		E2D2FC121CE05E5F00B29872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2D2FC141CE05E5F00B29872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2D2FC151CE05E5F00B29872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2D2FC1B1CE05E5F00B29872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2D2FC1D1CE05E5F00B29872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D2FC201CE05E5F00B29872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D2FC221CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC271CE05E5F00B29872 /* 程浩个人测试项目Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "程浩个人测试项目Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ________Tests.m; sourceTree = "<group>"; };
+		E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
 		E2D2FC2D1CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC321CE05E5F00B29872 /* 程浩个人测试项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "程浩个人测试项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2FC361CE05E5F00B29872 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ________UITests.m; sourceTree = "<group>"; };
+		E2D2FC361CE05E5F00B29872 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		E2D2FC381CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC441CE0612500B29872 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		E2D2FC451CE0612500B29872 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
@@ -316,7 +322,6 @@
 				E27B00F81CF2A9130047FDF1 /* SystemConfiguration.framework in Frameworks */,
 				E27B00F61CF2A9080047FDF1 /* libiconv.2.4.0.tbd in Frameworks */,
 				E27B00F41CF2A8F30047FDF1 /* Security.framework in Frameworks */,
-				5702CF6CB18A8BB0D0F37880 /* Pods_________.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +362,26 @@
 				8724B292487D8C7AABE22429 /* Pods_________.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1A23B5227FD15A007D8CA2 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				6A1A23B6227FD211007D8CA2 /* BaseNavigationViewController.h */,
+				6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		6A1A23B922801C95007D8CA2 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E2D2FC441CE0612500B29872 /* MainTableViewController.h */,
+				E2D2FC451CE0612500B29872 /* MainTableViewController.m */,
+				6A1A23BA22801CD8007D8CA2 /* HomeViewController.h */,
+				6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */,
+			);
+			path = tabBar;
 			sourceTree = "<group>";
 		};
 		6A697F95224E0AA5008F2950 /* 拍照和选择图片 */ = {
@@ -604,9 +629,10 @@
 				E2D2FCA31CE0842D00B29872 /* 程浩个人测试项目.entitlements */,
 				E2D2FC141CE05E5F00B29872 /* AppDelegate.h */,
 				E2D2FC151CE05E5F00B29872 /* AppDelegate.m */,
-				E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */,
-				E2D2FC441CE0612500B29872 /* MainTableViewController.h */,
-				E2D2FC451CE0612500B29872 /* MainTableViewController.m */,
+				6A1A23B2227FCB38007D8CA2 /* MainTabBarViewController.h */,
+				6A1A23B3227FCB38007D8CA2 /* MainTabBarViewController.m */,
+				6A1A23B5227FD15A007D8CA2 /* base */,
+				6A1A23B922801C95007D8CA2 /* tabBar */,
 				E2D2FC481CE0661D00B29872 /* Masonry */,
 				E2D2FC491CE0663800B29872 /* SDAutoLayout */,
 				E27B00EF1CF2A7D90047FDF1 /* Share */,
@@ -875,6 +901,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -904,7 +931,6 @@
 				E2D2FC1E1CE05E5F00B29872 /* Assets.xcassets in Resources */,
 				E2A224DA1D0FF69B00A448CA /* S6.csv in Resources */,
 				E2A224D71D0FF69B00A448CA /* S3.doc in Resources */,
-				E2D2FC1C1CE05E5F00B29872 /* Main.storyboard in Resources */,
 				E2D2FC611CE068E200B29872 /* sdRefeshView_arrow@2x.png in Resources */,
 				E2A224D81D0FF69B00A448CA /* S4.rtf in Resources */,
 			);
@@ -1005,6 +1031,7 @@
 				E26A23EF1CFEB1C5005C7711 /* UIImage+ScreenShot.m in Sources */,
 				E2C02BC51D3372C3006E6B20 /* Lock2ViewController.m in Sources */,
 				E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */,
+				6A1A23BC22801CD8007D8CA2 /* HomeViewController.m in Sources */,
 				E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */,
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
 				E22702FB1D267189000C266C /* PaintView01.m in Sources */,
@@ -1013,6 +1040,7 @@
 				E2D2FC7A1CE0692800B29872 /* DemoVC3.m in Sources */,
 				E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */,
 				E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */,
+				6A1A23B4227FCB38007D8CA2 /* MainTabBarViewController.m in Sources */,
 				E2DB0AED1CFC241F0047A4B0 /* IflyViewController.m in Sources */,
 				E2D2FC4C1CE0688E00B29872 /* MasnoryViewController.m in Sources */,
 				E26A23E61CFEB1C5005C7711 /* NSDate+Extension.m in Sources */,
@@ -1029,6 +1057,7 @@
 				E24EC97B1D2E32D3008A9458 /* CHScoreStar.m in Sources */,
 				E2D2FC621CE068E200B29872 /* SDRefreshFooterView.m in Sources */,
 				E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */,
+				6A1A23B8227FD211007D8CA2 /* BaseNavigationViewController.m in Sources */,
 				E2A224E71D10027400A448CA /* FileManagerViewController.m in Sources */,
 				E2D2FC641CE068E200B29872 /* SDRefreshView.m in Sources */,
 				E2C02BCC1D349B1F006E6B20 /* DrawBackGroundView.m in Sources */,
@@ -1074,14 +1103,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E2D2FC1A1CE05E5F00B29872 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2D2FC1B1CE05E5F00B29872 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2D2FC1F1CE05E5F00B29872 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

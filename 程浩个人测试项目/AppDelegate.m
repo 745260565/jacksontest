@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-//#import <AMapNaviKit/MAMapKit.h>
+#import "MainTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,17 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [MAMapServices sharedServices].apiKey = AMAPAppKey;
     
-    // 讯飞初始化
-    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",IFLYAppKey];
-    [IFlySpeechUtility createUtility:initString];
-    //设置sdk的log等级，log保存在下面设置的工作路径中
-    [IFlySetting setLogFile:LVL_ALL];
-    [IFlySetting showLogcat:YES];
-    //设置sdk的工作路径
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
-    NSString *cachePath = [paths objectAtIndex:0];
-    [IFlySetting setLogFilePath:cachePath];
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[MainTabBarViewController alloc] init];
+    [self.window makeKeyWindow];
     
     //本地推送
 //    //如果已经获得发送通知的授权则创建本地通知，否则请求授权(注意：如果不请求授权在设置中是没有对应的通知设置项的，也就是说如果从来没有发送过请求，即使通过设置也打不开消息允许设置)
@@ -45,14 +39,14 @@
 //    NSDictionary *userInfo = notification.userInfo;
 //    NSLog(@"didFinishLaunchingWithOptions:The userInfo is %@",userInfo);
     //远程推送
-    if ([[UIDevice currentDevice].systemVersion floatValue]<8.0) {
-        UIRemoteNotificationType type = UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeBadge|UIRemoteNotificationTypeSound;
-        [application registerForRemoteNotificationTypes:type];
-    }else{
-        UIUserNotificationType type = UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound;
-        UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:type categories:nil];
-        [application registerUserNotificationSettings:setting];
-    }
+//    if ([[UIDevice currentDevice].systemVersion floatValue]<8.0) {
+//        UIRemoteNotificationType type = UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeBadge|UIRemoteNotificationTypeSound;
+//        [application registerForRemoteNotificationTypes:type];
+//    }else{
+//        UIUserNotificationType type = UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound;
+//        UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:type categories:nil];
+//        [application registerUserNotificationSettings:setting];
+//    }
     return YES;
 }
 
