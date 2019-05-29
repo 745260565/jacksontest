@@ -18,15 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = WhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     UIButton *button1 = [[UIButton alloc] initWithFrame:CGRectMake(10, 74, 100, 50)];
-    [button1 setBackgroundColor:BlackColor];
+    [button1 setBackgroundColor:[UIColor blackColor]];
     [button1 setTitle:@"滑动解锁1" forState:UIControlStateNormal];
     [button1 addTarget:self action:@selector(lock1) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button1];
     
     UIButton *button2 = [[UIButton alloc] initWithFrame:CGRectMake(120, 74, 100, 50)];
-    [button2 setBackgroundColor:BlackColor];
+    [button2 setBackgroundColor:[UIColor blackColor]];
     [button2 setTitle:@"滑动解锁2" forState:UIControlStateNormal];
     [button2 addTarget:self action:@selector(lock2) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button2];

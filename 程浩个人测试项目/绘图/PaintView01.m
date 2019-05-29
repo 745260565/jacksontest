@@ -31,7 +31,7 @@
 
 //初始化paintViewInit样式和数据
 - (void)paintViewInit{
-    self.backgroundColor = WhiteColor;
+    self.backgroundColor = [UIColor whiteColor];
     paths = [[NSMutableArray alloc] init];
 }
 

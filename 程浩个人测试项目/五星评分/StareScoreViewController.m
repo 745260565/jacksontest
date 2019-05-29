@@ -17,20 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = WhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     self.starArr = [NSMutableArray arrayWithCapacity:5];
     self.scoreArr = [NSMutableArray arrayWithCapacity:5];
     CGFloat y = 80;
     for (int i = 0; i<5; i++) {
         CHScoreStar *star = [[CHScoreStar alloc] initWithFrame:CGRectMake(10, i*y+50+64, 50*(i+1), 50)];
         star.starBGColor = [UIColor colorWithWhite:0.85 alpha:1];
-        star.starColor = OrangeColor;
+        star.starColor = [UIColor orangeColor];
         star.score = 1;
         [self.view addSubview:star];
         [self.starArr addObject:star];
         UILabel *score = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(star.frame)+10, i*y+65+64, 80, 20)];
         score.text = [NSString stringWithFormat:@"%.2f",star.score];
-        score.textColor = BlackColor;
+        score.textColor = [UIColor blackColor];
         [self.view addSubview:score];
         [self.scoreArr addObject:score];
     }

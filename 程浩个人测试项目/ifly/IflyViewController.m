@@ -38,7 +38,7 @@
     
     UIButton *clearButton = [[UIButton alloc] initWithFrame:CGRectMake(250, 80, 50, 40)];
     [clearButton setTitle:@"clear" forState:UIControlStateNormal];
-    [clearButton setTitleColor:BlackColor forState:UIControlStateNormal];
+    [clearButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [clearButton addTarget:self action:@selector(clearDoc) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:clearButton];
     

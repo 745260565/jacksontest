@@ -25,16 +25,16 @@
     
     UIButton *button2 = [[UIButton alloc] initWithFrame:CGRectMake(140, 100, 100, 40)];
     [button2 addTarget:self action:@selector(guaguale) forControlEvents:UIControlEventTouchUpInside];
-    [button2 setBackgroundColor:GrayColor];
-    [button2 setTitleColor:BlackColor forState:UIControlStateNormal];
+    [button2 setBackgroundColor:[UIColor grayColor]];
+    [button2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [button2 setTitle:@"刮刮乐" forState:UIControlStateNormal];
     [self.view addSubview:button2];
     
     UIButton *button3 = [[UIButton alloc] initWithFrame:CGRectMake(20, 160, 100, 40)];
     [button3 addTarget:self action:@selector(paint) forControlEvents:UIControlEventTouchUpInside];
-    [button3 setBackgroundColor:GrayColor];
+    [button3 setBackgroundColor:[UIColor grayColor]];
     [button3 setTitle:@"涂鸦" forState:UIControlStateNormal];
-    [button3 setTitleColor:BlackColor forState:UIControlStateNormal];
+    [button3 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:button3];
 }
 

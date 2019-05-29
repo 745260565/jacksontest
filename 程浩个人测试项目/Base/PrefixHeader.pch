@@ -16,6 +16,7 @@
 
 #endif /* PrefixHeader_pch */
 
+#import "UIColor+Hex.h"
 
 #import "Constant.h"
 #import "Masonry.h"

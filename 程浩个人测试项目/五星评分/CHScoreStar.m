@@ -35,8 +35,8 @@
     CAShapeLayer *backgroudLayer = [CAShapeLayer layer];
     backgroudLayer.path = backgroudPath.CGPath;
     backgroudLayer.lineWidth = frame.size.height;
-    backgroudLayer.strokeColor = OrangeColor.CGColor;
-    backgroudLayer.fillColor = OrangeColor.CGColor;
+    backgroudLayer.strokeColor = [UIColor orangeColor].CGColor;
+    backgroudLayer.fillColor = [UIColor orangeColor].CGColor;
     [self.layer addSublayer:backgroudLayer];
     self.backgroundLayer = backgroudLayer;
     //画图

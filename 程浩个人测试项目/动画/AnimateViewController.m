@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = WhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     [self addThreeCir];
     [self timer];
     // Do any additional setup after loading the view.
@@ -44,7 +44,7 @@
     self.centerCir.center = self.view.center;
     self.centerCir.layer.cornerRadius = Radius*0.5;
     self.centerCir.layer.masksToBounds = YES;
-    self.centerCir.backgroundColor = OrangeColor;
+    self.centerCir.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:self.centerCir];
     
     CGPoint centerPoint = self.centerCir.center;
@@ -56,7 +56,7 @@
     self.leftCir.center = leftCenter;
     self.leftCir.layer.cornerRadius = Radius*0.5;
     self.leftCir.layer.masksToBounds = YES;
-    self.leftCir.backgroundColor = OrangeColor;
+    self.leftCir.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:self.leftCir];
     
     self.rightCir = [[UIView alloc] initWithFrame:CGRectMake(0, 0, Radius, Radius)];
@@ -66,7 +66,7 @@
     self.rightCir.center = rightCenter;
     self.rightCir.layer.cornerRadius = Radius*0.5;
     self.rightCir.layer.masksToBounds = YES;
-    self.rightCir.backgroundColor = OrangeColor;
+    self.rightCir.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:self.rightCir];
 }
 

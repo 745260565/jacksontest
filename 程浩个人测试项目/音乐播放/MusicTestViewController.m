@@ -16,38 +16,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = WhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     
     UIButton *play = [[UIButton alloc] initWithFrame:CGRectMake(10, 94, 50, 30)];
-    [play setTitleColor:BlackColor forState:UIControlStateNormal];
-    [play setBackgroundColor:ClearColor];
+    [play setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [play setBackgroundColor:[UIColor clearColor]];
     [play setTitle:@"play" forState:UIControlStateNormal];
     [play addTarget:self action:@selector(play) forControlEvents:UIControlEventTouchUpInside];
     play.layer.cornerRadius = 3;
     play.layer.borderWidth = 2;//这个可以把masksToBounds改成NO
-    play.layer.borderColor = BlackColor.CGColor;
+    play.layer.borderColor = [UIColor blackColor].CGColor;
     play.layer.masksToBounds = YES;
     [self.view addSubview:play];
     
     UIButton *pause = [[UIButton alloc] initWithFrame:CGRectMake(70, 94, 50, 30)];
     [pause setTitle:@"pause" forState:UIControlStateNormal];
-    [pause setBackgroundColor:ClearColor];
-    [pause setTitleColor:BlackColor forState:UIControlStateNormal];
+    [pause setBackgroundColor:[UIColor clearColor]];
+    [pause setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [pause addTarget:self action:@selector(pause) forControlEvents:UIControlEventTouchUpInside];
     pause.layer.cornerRadius = 3;
     pause.layer.borderWidth = 2;//这个可以把masksToBounds改成NO
-    pause.layer.borderColor = BlackColor.CGColor;
+    pause.layer.borderColor = [UIColor blackColor].CGColor;
     pause.layer.masksToBounds = YES;
     [self.view addSubview:pause];
     
     UIButton *stop = [[UIButton alloc] initWithFrame:CGRectMake(130, 94, 50, 30)];
-    [stop setTitleColor:BlackColor forState:UIControlStateNormal];
-    [stop setBackgroundColor:ClearColor];
+    [stop setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [stop setBackgroundColor:[UIColor clearColor]];
     [stop setTitle:@"stop" forState:UIControlStateNormal];
     [stop addTarget:self action:@selector(stop) forControlEvents:UIControlEventTouchUpInside];
     stop.layer.cornerRadius = 3;
     stop.layer.borderWidth = 2;//这个可以把masksToBounds改成NO
-    stop.layer.borderColor = BlackColor.CGColor;
+    stop.layer.borderColor = [UIColor blackColor].CGColor;
     stop.layer.masksToBounds = YES;
     [self.view addSubview:stop];
     // Do any additional setup after loading the view.

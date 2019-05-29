@@ -11,7 +11,15 @@
 		6A1A23B8227FD211007D8CA2 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */; };
 		6A1A23BC22801CD8007D8CA2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */; };
 		6A697F98224E0B59008F2950 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A697F97224E0B59008F2950 /* ImageViewController.m */; };
-		99B46B5DBD426265D6ABF5E8 /* Pods_________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8724B292487D8C7AABE22429 /* Pods_________.framework */; };
+		6A7E16D5229D24A50063CCE4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16D4229D24A50063CCE4 /* UIColor+Hex.m */; };
+		6A7E16E2229E25D70063CCE4 /* intro_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E16DB229E25D70063CCE4 /* intro_0.jpg */; };
+		6A7E16E3229E25D70063CCE4 /* intro_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E16DC229E25D70063CCE4 /* intro_1.jpg */; };
+		6A7E16E4229E25D70063CCE4 /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E16DD229E25D70063CCE4 /* intro_3.jpg */; };
+		6A7E16E5229E25D70063CCE4 /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E16DE229E25D70063CCE4 /* intro_2.jpg */; };
+		6A7E16E6229E25D70063CCE4 /* LMJIntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16DF229E25D70063CCE4 /* LMJIntroductoryPagesView.m */; };
+		6A7E16E7229E25D70063CCE4 /* LMJIntroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16E0229E25D70063CCE4 /* LMJIntroductoryPagesHelper.m */; };
+		6A7E16F6229E76180063CCE4 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16F2229E76170063CCE4 /* AdvertiseView.m */; };
+		6A7E16F7229E76180063CCE4 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16F3229E76170063CCE4 /* AdvertiseHelper.m */; };
 		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
 		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
 		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
@@ -151,7 +159,21 @@
 		6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6A697F96224E0B59008F2950 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		6A697F97224E0B59008F2950 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
-		8724B292487D8C7AABE22429 /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7E16D3229D24A50063CCE4 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6A7E16D4229D24A50063CCE4 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6A7E16D9229E25D70063CCE4 /* LMJIntroductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJIntroductoryPagesHelper.h; sourceTree = "<group>"; };
+		6A7E16DB229E25D70063CCE4 /* intro_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_0.jpg; sourceTree = "<group>"; };
+		6A7E16DC229E25D70063CCE4 /* intro_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_1.jpg; sourceTree = "<group>"; };
+		6A7E16DD229E25D70063CCE4 /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
+		6A7E16DE229E25D70063CCE4 /* intro_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_2.jpg; sourceTree = "<group>"; };
+		6A7E16DF229E25D70063CCE4 /* LMJIntroductoryPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJIntroductoryPagesView.m; sourceTree = "<group>"; };
+		6A7E16E0229E25D70063CCE4 /* LMJIntroductoryPagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJIntroductoryPagesHelper.m; sourceTree = "<group>"; };
+		6A7E16E1229E25D70063CCE4 /* LMJIntroductoryPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJIntroductoryPagesView.h; sourceTree = "<group>"; };
+		6A7E16F2229E76170063CCE4 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		6A7E16F3229E76170063CCE4 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
+		6A7E16F4229E76170063CCE4 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
+		6A7E16F5229E76170063CCE4 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		8724B292487D8C7AABE22429 /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
 		E20265281D587CAD00222164 /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
 		E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丽江小倩 - 一瞬间.mp3"; sourceTree = "<group>"; };
@@ -248,16 +270,16 @@
 		E2D2FC201CE05E5F00B29872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D2FC221CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC271CE05E5F00B29872 /* 程浩个人测试项目Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "程浩个人测试项目Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ________Tests.m; sourceTree = "<group>"; };
+		E2D2FC2B1CE05E5F00B29872 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
 		E2D2FC2D1CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC321CE05E5F00B29872 /* 程浩个人测试项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "程浩个人测试项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2FC361CE05E5F00B29872 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ________UITests.m; sourceTree = "<group>"; };
+		E2D2FC361CE05E5F00B29872 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		E2D2FC381CE05E5F00B29872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D2FC441CE0612500B29872 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		E2D2FC451CE0612500B29872 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		E2D2FC4A1CE0688E00B29872 /* MasnoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasnoryViewController.h; sourceTree = "<group>"; };
 		E2D2FC4B1CE0688E00B29872 /* MasnoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasnoryViewController.m; sourceTree = "<group>"; };
-		E2D2FC4F1CE068E200B29872 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = ../Tool/SDAutoLayout/Constant.h; sourceTree = "<group>"; };
+		E2D2FC4F1CE068E200B29872 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		E2D2FC501CE068E200B29872 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
 		E2D2FC511CE068E200B29872 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		E2D2FC521CE068E200B29872 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
@@ -323,7 +345,6 @@
 				E27B00F81CF2A9130047FDF1 /* SystemConfiguration.framework in Frameworks */,
 				E27B00F61CF2A9080047FDF1 /* libiconv.2.4.0.tbd in Frameworks */,
 				E27B00F41CF2A8F30047FDF1 /* Security.framework in Frameworks */,
-				99B46B5DBD426265D6ABF5E8 /* Pods_________.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +387,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A1A23B5227FD15A007D8CA2 /* base */ = {
+		6A1A23B5227FD15A007D8CA2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				E2D2FC4F1CE068E200B29872 /* Constant.h */,
+				E2D2FC7F1CE0699800B29872 /* PrefixHeader.pch */,
+				6A7E16D1229D23BD0063CCE4 /* Category */,
+				6A7E16D2229D23D40063CCE4 /* Tools */,
 				6A1A23B6227FD211007D8CA2 /* BaseNavigationViewController.h */,
 				6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */,
 			);
-			path = base;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		6A1A23B922801C95007D8CA2 /* tabBar */ = {
@@ -393,6 +418,65 @@
 				6A697F97224E0B59008F2950 /* ImageViewController.m */,
 			);
 			path = "拍照和选择图片";
+			sourceTree = "<group>";
+		};
+		6A7E16D0229D23A80063CCE4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E16F1229E76170063CCE4 /* 广告页 */,
+				6A7E16D8229E25D70063CCE4 /* 欢迎页 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6A7E16D1229D23BD0063CCE4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E16D3229D24A50063CCE4 /* UIColor+Hex.h */,
+				6A7E16D4229D24A50063CCE4 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6A7E16D2229D23D40063CCE4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6A7E16D8229E25D70063CCE4 /* 欢迎页 */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E16DA229E25D70063CCE4 /* PLMMPRIKImages */,
+				6A7E16D9229E25D70063CCE4 /* LMJIntroductoryPagesHelper.h */,
+				6A7E16E0229E25D70063CCE4 /* LMJIntroductoryPagesHelper.m */,
+				6A7E16E1229E25D70063CCE4 /* LMJIntroductoryPagesView.h */,
+				6A7E16DF229E25D70063CCE4 /* LMJIntroductoryPagesView.m */,
+			);
+			path = "欢迎页";
+			sourceTree = "<group>";
+		};
+		6A7E16DA229E25D70063CCE4 /* PLMMPRIKImages */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E16DB229E25D70063CCE4 /* intro_0.jpg */,
+				6A7E16DC229E25D70063CCE4 /* intro_1.jpg */,
+				6A7E16DD229E25D70063CCE4 /* intro_3.jpg */,
+				6A7E16DE229E25D70063CCE4 /* intro_2.jpg */,
+			);
+			path = PLMMPRIKImages;
+			sourceTree = "<group>";
+		};
+		6A7E16F1229E76170063CCE4 /* 广告页 */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E16F2229E76170063CCE4 /* AdvertiseView.m */,
+				6A7E16F3229E76170063CCE4 /* AdvertiseHelper.m */,
+				6A7E16F4229E76170063CCE4 /* AdvertiseHelper.h */,
+				6A7E16F5229E76170063CCE4 /* AdvertiseView.h */,
+			);
+			path = "广告页";
 			sourceTree = "<group>";
 		};
 		A2511DB9CDA53BCC23CF96BC /* Pods */ = {
@@ -633,7 +717,8 @@
 				E2D2FC151CE05E5F00B29872 /* AppDelegate.m */,
 				6A1A23B2227FCB38007D8CA2 /* MainTabBarViewController.h */,
 				6A1A23B3227FCB38007D8CA2 /* MainTabBarViewController.m */,
-				6A1A23B5227FD15A007D8CA2 /* base */,
+				6A1A23B5227FD15A007D8CA2 /* Base */,
+				6A7E16D0229D23A80063CCE4 /* Class */,
 				6A1A23B922801C95007D8CA2 /* tabBar */,
 				E2D2FC481CE0661D00B29872 /* Masonry */,
 				E2D2FC491CE0663800B29872 /* SDAutoLayout */,
@@ -663,8 +748,6 @@
 			isa = PBXGroup;
 			children = (
 				E2D2FC121CE05E5F00B29872 /* main.m */,
-				E2D2FC4F1CE068E200B29872 /* Constant.h */,
-				E2D2FC7F1CE0699800B29872 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -924,17 +1007,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7E16E4229E25D70063CCE4 /* intro_3.jpg in Resources */,
+				6A7E16E3229E25D70063CCE4 /* intro_1.jpg in Resources */,
 				E2A224DB1D0FF69B00A448CA /* S7.pdf in Resources */,
 				E2A224D61D0FF69B00A448CA /* S2.docx in Resources */,
 				E2A224D91D0FF69B00A448CA /* S5.png in Resources */,
 				E2A224D51D0FF69B00A448CA /* S1.ppt in Resources */,
 				E2D2FC211CE05E5F00B29872 /* LaunchScreen.storyboard in Resources */,
+				6A7E16E2229E25D70063CCE4 /* intro_0.jpg in Resources */,
 				E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */,
 				E2D2FC1E1CE05E5F00B29872 /* Assets.xcassets in Resources */,
 				E2A224DA1D0FF69B00A448CA /* S6.csv in Resources */,
 				E2A224D71D0FF69B00A448CA /* S3.doc in Resources */,
 				E2D2FC611CE068E200B29872 /* sdRefeshView_arrow@2x.png in Resources */,
 				E2A224D81D0FF69B00A448CA /* S4.rtf in Resources */,
+				6A7E16E5229E25D70063CCE4 /* intro_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1025,6 +1112,7 @@
 				E22702F81D267146000C266C /* PaintViewController.m in Sources */,
 				E2C02BBF1D3370BC006E6B20 /* LockViewController.m in Sources */,
 				E2D2FC651CE068E200B29872 /* UIView+SDExtension.m in Sources */,
+				6A7E16E6229E25D70063CCE4 /* LMJIntroductoryPagesView.m in Sources */,
 				E26A23EE1CFEB1C5005C7711 /* UIImage+Extension.m in Sources */,
 				E2D2FC601CE068E200B29872 /* UIView+SDAutoLayout.m in Sources */,
 				E26A23EB1CFEB1C5005C7711 /* UIButton+Extension.m in Sources */,
@@ -1035,9 +1123,11 @@
 				E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */,
 				E2D2FC7B1CE0692800B29872 /* TestCell2.m in Sources */,
 				E22702FB1D267189000C266C /* PaintView01.m in Sources */,
+				6A7E16D5229D24A50063CCE4 /* UIColor+Hex.m in Sources */,
 				E27B00F21CF2A83C0047FDF1 /* ShareVC.m in Sources */,
 				6A697F98224E0B59008F2950 /* ImageViewController.m in Sources */,
 				E2D2FC7A1CE0692800B29872 /* DemoVC3.m in Sources */,
+				6A7E16E7229E25D70063CCE4 /* LMJIntroductoryPagesHelper.m in Sources */,
 				E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */,
 				E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */,
 				6A1A23B4227FCB38007D8CA2 /* MainTabBarViewController.m in Sources */,
@@ -1049,9 +1139,11 @@
 				E26A23F21CFEB1C5005C7711 /* UITextControl+FaultTolerance.m in Sources */,
 				E24EC9781D2E3164008A9458 /* StareScoreViewController.m in Sources */,
 				E26A23F51CFEB1C5005C7711 /* UIView+Runtime.m in Sources */,
+				6A7E16F6229E76180063CCE4 /* AdvertiseView.m in Sources */,
 				E26A23F01CFEB1C5005C7711 /* UILabel+Extension.m in Sources */,
 				E2C02BC21D3372B8006E6B20 /* Lock1ViewController.m in Sources */,
 				E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */,
+				6A7E16F7229E76180063CCE4 /* AdvertiseHelper.m in Sources */,
 				E26A23E51CFEB1C5005C7711 /* Foundation+Log.m in Sources */,
 				E2D2FC461CE0612500B29872 /* MainTableViewController.m in Sources */,
 				E24EC97B1D2E32D3008A9458 /* CHScoreStar.m in Sources */,
@@ -1212,7 +1304,7 @@
 					"$(PROJECT_DIR)/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1240,7 +1332,7 @@
 					"$(PROJECT_DIR)/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

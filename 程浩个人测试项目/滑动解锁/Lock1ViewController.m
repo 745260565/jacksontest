@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = WhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     DrawBackGroundView *bgVC = [DrawBackGroundView new];
     [self.view addSubview:bgVC];
     [bgVC mas_makeConstraints:^(MASConstraintMaker *make) {

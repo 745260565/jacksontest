@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = WhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     self.mainImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"123"]];
     [self.view addSubview:self.mainImage];
     [self.mainImage mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -31,7 +31,7 @@
     self.mainImage.layer.cornerRadius = cornerRadius;
     self.mainImage.layer.masksToBounds = YES;
     self.mainImage.layer.borderWidth = 2;
-    self.mainImage.layer.borderColor = GrayColor.CGColor;
+    self.mainImage.layer.borderColor = [UIColor grayColor].CGColor;
     
 //    [self binPan:self.mainImage];
     [self binRotation:self.mainImage];

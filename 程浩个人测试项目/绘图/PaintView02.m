@@ -37,7 +37,7 @@
 }
 
 - (void)paintViewInit{
-    self.backgroundColor = WhiteColor;
+    self.backgroundColor = [UIColor whiteColor];
     paintSteps = [NSMutableArray array];
     [self createColorBord];
     [self createStrokeWithSlider];
@@ -45,12 +45,12 @@
 
 //创建色板
 - (void)createColorBord{
-    currColor = BlackColor;
+    currColor = [UIColor blackColor];
     UIView *colorBoardView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, width, 20)];
     [self addSubview:colorBoardView];
     colorBoardView.layer.borderWidth = 1;
-    colorBoardView.layer.borderColor = BlackColor.CGColor;
-    NSArray *colors = [NSArray arrayWithObjects:BlackColor,RedColor,BlueColor,GreenColor,YellowColor,BrownColor,OrangeColor,WhiteColor,OrangeColor,PurpleColor,CyanColor,LightGrayColor,nil];
+    colorBoardView.layer.borderColor = [UIColor blackColor].CGColor;
+    NSArray *colors = [NSArray arrayWithObjects:[UIColor blackColor],[UIColor redColor],[UIColor blueColor],[UIColor greenColor],[UIColor yellowColor],[UIColor brownColor],[UIColor orangeColor],[UIColor whiteColor],[UIColor orangeColor],[UIColor purpleColor],[UIColor cyanColor],[UIColor lightGrayColor],nil];
     for (int i = 0; i<colors.count; i++) {
         UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake((width/colors.count)*i, 0, width/colors.count, 20)];
         [colorBoardView addSubview:btn];

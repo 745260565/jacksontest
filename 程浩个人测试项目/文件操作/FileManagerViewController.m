@@ -32,14 +32,14 @@
     UIButton *button1 = [[UIButton alloc] initWithFrame:CGRectMake(10, 74, 72, 30)];
     [button1 addTarget:self action:@selector(showPath:) forControlEvents:UIControlEventTouchUpInside];
     [button1 setTitle:@"沙盒路径" forState:UIControlStateNormal];
-    [button1 setTitleColor:BlackColor forState:UIControlStateNormal];
+    [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:button1];
     
     
     UIButton *button2 = [[UIButton alloc] initWithFrame:CGRectMake(92, 74, 72, 30)];
     [button2 addTarget:self action:@selector(filePathManager) forControlEvents:UIControlEventTouchUpInside];
     [button2 setTitle:@"路径处理" forState:UIControlStateNormal];
-    [button2 setTitleColor:BlackColor forState:UIControlStateNormal];
+    [button2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:button2];
     // Do any additional setup after loading the view.
 }
