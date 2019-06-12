@@ -23,6 +23,7 @@
 #import "UIView+SDAutoLayout.h"
 #import "POP.h"
 #import <iflyMSC/iflyMSC.h>
+#import "LMJRequestManager.h"
 
 #ifdef DEBUG
 #define NSLog(...) NSLog(__VA_ARGS__)
