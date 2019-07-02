@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A1A23B4227FCB38007D8CA2 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23B3227FCB38007D8CA2 /* MainTabBarViewController.m */; };
-		6A1A23B8227FD211007D8CA2 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */; };
+		6A1A23B8227FD211007D8CA2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23B7227FD211007D8CA2 /* BaseNavigationController.m */; };
 		6A1A23BC22801CD8007D8CA2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */; };
 		6A697F98224E0B59008F2950 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A697F97224E0B59008F2950 /* ImageViewController.m */; };
 		6A7E16D5229D24A50063CCE4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16D4229D24A50063CCE4 /* UIColor+Hex.m */; };
@@ -24,7 +24,8 @@
 		6A7E170222A652660063CCE4 /* LMJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E16FD22A652650063CCE4 /* LMJBaseRequest.m */; };
 		6A7E170322A652660063CCE4 /* video.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E16FF22A652650063CCE4 /* video.json */; };
 		6A7E170422A652660063CCE4 /* LMJRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E170022A652650063CCE4 /* LMJRequestManager.m */; };
-		6A7E170722A65C670063CCE4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E170622A65C670063CCE4 /* BaseViewController.m */; };
+		6A7E173322B8CAD10063CCE4 /* GcdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E173222B8CAD10063CCE4 /* GcdViewController.m */; };
+		6A7E173622B8CCF50063CCE4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E173522B8CCF50063CCE4 /* BaseViewController.m */; };
 		E20265291D587CAD00222164 /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20265281D587CAD00222164 /* MusicTestViewController.m */; };
 		E202652B1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E202652A1D58812C00222164 /* 丽江小倩 - 一瞬间.mp3 */; };
 		E20506B61CF6F7AE008257B1 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20506B51CF6F7AE008257B1 /* PopViewController.m */; };
@@ -146,8 +147,8 @@
 		3C70C4C92C1529F10125BCCC /* Pods-程浩个人测试项目.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-程浩个人测试项目.debug.xcconfig"; path = "Pods/Target Support Files/Pods-程浩个人测试项目/Pods-程浩个人测试项目.debug.xcconfig"; sourceTree = "<group>"; };
 		6A1A23B2227FCB38007D8CA2 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		6A1A23B3227FCB38007D8CA2 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
-		6A1A23B6227FD211007D8CA2 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
-		6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		6A1A23B6227FD211007D8CA2 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		6A1A23B7227FD211007D8CA2 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		6A1A23BA22801CD8007D8CA2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		6A1A23BB22801CD8007D8CA2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6A697F96224E0B59008F2950 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -173,8 +174,10 @@
 		6A7E16FD22A652650063CCE4 /* LMJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseRequest.m; sourceTree = "<group>"; };
 		6A7E16FF22A652650063CCE4 /* video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
 		6A7E170022A652650063CCE4 /* LMJRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRequestManager.m; sourceTree = "<group>"; };
-		6A7E170522A65C670063CCE4 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		6A7E170622A65C670063CCE4 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6A7E173122B8CAD10063CCE4 /* GcdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GcdViewController.h; sourceTree = "<group>"; };
+		6A7E173222B8CAD10063CCE4 /* GcdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GcdViewController.m; sourceTree = "<group>"; };
+		6A7E173422B8CCF50063CCE4 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6A7E173522B8CCF50063CCE4 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		8724B292487D8C7AABE22429 /* Pods_________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20265271D587CAD00222164 /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
 		E20265281D587CAD00222164 /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
@@ -371,10 +374,10 @@
 			children = (
 				E2D2FC4F1CE068E200B29872 /* Constant.h */,
 				E2D2FC7F1CE0699800B29872 /* PrefixHeader.pch */,
-				6A1A23B6227FD211007D8CA2 /* BaseNavigationViewController.h */,
-				6A1A23B7227FD211007D8CA2 /* BaseNavigationViewController.m */,
-				6A7E170522A65C670063CCE4 /* BaseViewController.h */,
-				6A7E170622A65C670063CCE4 /* BaseViewController.m */,
+				6A1A23B6227FD211007D8CA2 /* BaseNavigationController.h */,
+				6A1A23B7227FD211007D8CA2 /* BaseNavigationController.m */,
+				6A7E173422B8CCF50063CCE4 /* BaseViewController.h */,
+				6A7E173522B8CCF50063CCE4 /* BaseViewController.m */,
 				6A7E16D1229D23BD0063CCE4 /* Category */,
 				6A7E16D2229D23D40063CCE4 /* Tools */,
 				6A7E16F822A652650063CCE4 /* Network */,
@@ -405,6 +408,7 @@
 		6A7E16D0229D23A80063CCE4 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				6A7E172A22B78CA80063CCE4 /* GCD */,
 				6A7E16F1229E76170063CCE4 /* 广告页 */,
 				6A7E16D8229E25D70063CCE4 /* 欢迎页 */,
 			);
@@ -483,6 +487,15 @@
 				6A7E16FF22A652650063CCE4 /* video.json */,
 			);
 			path = LMJLocalJsons;
+			sourceTree = "<group>";
+		};
+		6A7E172A22B78CA80063CCE4 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E173122B8CAD10063CCE4 /* GcdViewController.h */,
+				6A7E173222B8CAD10063CCE4 /* GcdViewController.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 		A2511DB9CDA53BCC23CF96BC /* Pods */ = {
@@ -1114,6 +1127,7 @@
 				E2D2FC821CE06A5B00B29872 /* ViewController.m in Sources */,
 				E2D2FC781CE0692800B29872 /* DemoVC0.m in Sources */,
 				E26A24081D06A2BB005C7711 /* DrawVC.m in Sources */,
+				6A7E173622B8CCF50063CCE4 /* BaseViewController.m in Sources */,
 				E2A224C91D0E5F4300A448CA /* THCircularProgressView.m in Sources */,
 				E2D2FC6B1CE0690500B29872 /* DemoTableViewController.m in Sources */,
 				E26B41C91D29FE46004FD9AA /* PaintStep.m in Sources */,
@@ -1128,7 +1142,6 @@
 				E2D2FC651CE068E200B29872 /* UIView+SDExtension.m in Sources */,
 				6A7E16E6229E25D70063CCE4 /* LMJIntroductoryPagesView.m in Sources */,
 				E2D2FC601CE068E200B29872 /* UIView+SDAutoLayout.m in Sources */,
-				6A7E170722A65C670063CCE4 /* BaseViewController.m in Sources */,
 				E2C02BC51D3372C3006E6B20 /* Lock2ViewController.m in Sources */,
 				E28252BB1D0D59D600764C97 /* QLViewController.m in Sources */,
 				6A1A23BC22801CD8007D8CA2 /* HomeViewController.m in Sources */,
@@ -1144,6 +1157,7 @@
 				E2802FEF1D2B921700985091 /* AnimateViewController.m in Sources */,
 				E26A24001CFFCFF8005C7711 /* UIImage+Circle.m in Sources */,
 				6A1A23B4227FCB38007D8CA2 /* MainTabBarViewController.m in Sources */,
+				6A7E173322B8CAD10063CCE4 /* GcdViewController.m in Sources */,
 				E2DB0AED1CFC241F0047A4B0 /* IflyViewController.m in Sources */,
 				E2D2FC4C1CE0688E00B29872 /* MasnoryViewController.m in Sources */,
 				E2D2FC791CE0692800B29872 /* DemoVC1.m in Sources */,
@@ -1157,7 +1171,7 @@
 				E24EC97B1D2E32D3008A9458 /* CHScoreStar.m in Sources */,
 				E2D2FC621CE068E200B29872 /* SDRefreshFooterView.m in Sources */,
 				E2311BF81D22124500464FF4 /* GuaGuaLeViewController.m in Sources */,
-				6A1A23B8227FD211007D8CA2 /* BaseNavigationViewController.m in Sources */,
+				6A1A23B8227FD211007D8CA2 /* BaseNavigationController.m in Sources */,
 				E2A224E71D10027400A448CA /* FileManagerViewController.m in Sources */,
 				E2D2FC641CE068E200B29872 /* SDRefreshView.m in Sources */,
 				E2C02BCC1D349B1F006E6B20 /* DrawBackGroundView.m in Sources */,
@@ -1309,6 +1323,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";
@@ -1337,6 +1352,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/chenghao/Developer/chengHaoTest/jacksontest/程浩个人测试项目/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = "程浩个人测试项目/Info.plist";

@@ -41,8 +41,8 @@
 
 #pragma mark - Initialization
 - (void)initTitles{
-    titles = @[@"Masonry",@"SDAutoLayout",@"第三方分享",@"pop动画",@"讯飞语音",@"多线程",@"绘图",@"QuickLook",@"文件管理",@"手势",@"动画",@"五星评分",@"滑动解锁",@"音乐播放",@"选择图片和拍照"];
-    VCTitles = @[@"MasnoryViewController",@"DemoTableViewController",@"ShareVC",@"PopViewController",@"IflyViewController",@"GCDViewController",@"DrawVC",@"QLViewController",@"FileManagerViewController",@"GesViewController",@"AnimateViewController",@"StareScoreViewController",@"LockViewController",@"SlideIconViewController",@"ImageViewController"];
+    titles = @[@"Masonry",@"SDAutoLayout",@"第三方分享",@"pop动画",@"讯飞语音",@"多线程",@"绘图",@"QuickLook",@"文件管理",@"手势",@"动画",@"五星评分",@"滑动解锁",@"音乐播放",@"选择图片和拍照",@"GCD"];
+    VCTitles = @[@"MasnoryViewController",@"DemoTableViewController",@"ShareVC",@"PopViewController",@"IflyViewController",@"GCDViewController",@"DrawVC",@"QLViewController",@"FileManagerViewController",@"GesViewController",@"AnimateViewController",@"StareScoreViewController",@"LockViewController",@"SlideIconViewController",@"ImageViewController",@"GcdViewController"];
 }
 
 #pragma mark - Life Cycle

@@ -9,7 +9,7 @@
 #import "HomeViewController.h"
 
 @interface HomeViewController ()
-
+@property (nonatomic, strong)UITableView *contenTableView;
 @end
 
 @implementation HomeViewController

@@ -7,7 +7,7 @@
 //
 
 #import "MainTabBarViewController.h"
-#import "BaseNavigationViewController.h"
+#import "BaseNavigationController.h"
 
 #import "HomeViewController.h"
 #import "MainTableViewController.h"
@@ -27,12 +27,12 @@
 }
 
 - (void)initTabBarController{
-    BaseNavigationViewController *homeNav = [[BaseNavigationViewController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
+    BaseNavigationController *homeNav = [[BaseNavigationController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
     homeNav.tabBarItem.title = @"首页";
     homeNav.tabBarItem.image = [[UIImage imageNamed:@"tab_home_grey"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     homeNav.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_home_red"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
-    BaseNavigationViewController *firstNav = [[BaseNavigationViewController alloc] initWithRootViewController:[[MainTableViewController alloc] init]];
+    BaseNavigationController *firstNav = [[BaseNavigationController alloc] initWithRootViewController:[[MainTableViewController alloc] init]];
     firstNav.tabBarItem.title = @"功能";
     firstNav.tabBarItem.image = [[UIImage imageNamed:@"tab_home_grey"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     firstNav.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_home_red"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];

@@ -6,13 +6,13 @@
 //  Copyright © 2019 id. All rights reserved.
 //
 
-#import "BaseNavigationViewController.h"
+#import "BaseNavigationController.h"
 
-@interface BaseNavigationViewController ()
+@interface BaseNavigationController ()
 
 @end
 
-@implementation BaseNavigationViewController
+@implementation BaseNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

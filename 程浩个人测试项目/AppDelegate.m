@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [MAMapServices sharedServices].apiKey = AMAPAppKey;
     self.window = [[UIWindow alloc] init];
-    self.window.backgroundColor = [UIColor RandomColor];
+//    self.window.backgroundColor = [UIColor RandomColor];
     self.window.rootViewController = [[MainTabBarViewController alloc] init];
     [self.window makeKeyAndVisible];
     
